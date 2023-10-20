@@ -7,11 +7,12 @@ public class BoardCreator : MonoBehaviour
     [SerializeField] GameObject tilePrefab;
     [SerializeField] int n;
     [SerializeField] int m;
-    [SerializeField] float tileSize;
+    float tileSize;
     // Start is called before the first frame update
     
     void Start()
     {
+        tileSize = tilePrefab.transform.localScale.x * 10;
 
 
 
