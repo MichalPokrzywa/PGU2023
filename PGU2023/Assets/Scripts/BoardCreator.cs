@@ -5,6 +5,9 @@ using UnityEngine;
 public class BoardCreator : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] int n;
+    [SerializeField] int m;
+    [SerializeField] float toleSize;
     void Start()
     {
         
