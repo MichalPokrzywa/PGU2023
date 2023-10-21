@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class DeckManager : MonoBehaviour
 {
+    private static DeckManager _instance;
+    public static DeckManager instance => _instance;
+
     public GameObject[] cardObjects;
-    // Start is called before the first frame update
+    void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
     void Start()
+    { 
+        LoadCardsGameObjects();   
+    }
+
+    void LoadCardsGameObjects()
     {
         cardObjects = Utility.GetAtPath<GameObject>("Prefabs/Cards/");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void LoadCards()
-    {
-        
     }
 
 }
