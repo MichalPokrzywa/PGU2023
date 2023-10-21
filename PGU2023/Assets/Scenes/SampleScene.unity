@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &408607927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 408607929}
+  - component: {fileID: 408607928}
+  m_Layer: 0
+  m_Name: Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &408607928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408607927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e32a1ea2809a04a8c67e9449614981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &408607929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408607927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00978414, y: 0.489, z: 0.15050344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,22 +352,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 435554221, guid: c6ee338278baa8544ae1858655d4a26d, type: 3}
-      propertyPath: cost
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 435554221, guid: c6ee338278baa8544ae1858655d4a26d, type: 3}
-      propertyPath: interest
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 435554221, guid: c6ee338278baa8544ae1858655d4a26d, type: 3}
-      propertyPath: funtionality
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 435554221, guid: c6ee338278baa8544ae1858655d4a26d, type: 3}
-      propertyPath: gameObjectModel
-      value: 
-      objectReference: {fileID: 6704058567114982939, guid: e42242142db731b4895402b24258b777, type: 3}
     - target: {fileID: 6390667619282285328, guid: c6ee338278baa8544ae1858655d4a26d, type: 3}
       propertyPath: m_Name
       value: Game_Blue_PlayingCards_Spade06_00
