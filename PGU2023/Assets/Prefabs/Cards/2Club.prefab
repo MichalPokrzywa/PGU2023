@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 567818874649431515, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebd12d27b23f0634b8ef3d48cd25da6d, type: 2}
     - target: {fileID: 2296161047606720775, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
       propertyPath: m_Name
-      value: Game_Blue_PlayingCards_Spade06_00
+      value: 2Club
       objectReference: {fileID: 0}
     - target: {fileID: 2992294052692036372, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
       propertyPath: m_RootOrder

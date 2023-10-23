@@ -29,4 +29,14 @@ public class DeckManager : MonoBehaviour
         cardObjects = Utility.GetAtPath<GameObject>("Prefabs/Cards/");
     }
 
+    public GameObject getRandom()
+    {
+        int index = Random.Range(0, cardObjects.Length);
+        
+        Debug.Log(cardObjects[index].name);
+
+        //usunac karte z talii (moze kiedys)
+
+        return cardObjects[index];
+    }
 }

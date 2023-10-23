@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 567818874649431515, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ee99329bc70dff43b9814dce0561ac8, type: 2}
     - target: {fileID: 2296161047606720775, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
       propertyPath: m_Name
-      value: Game_Blue_PlayingCards_Spade06_00
+      value: JackSpades
       objectReference: {fileID: 0}
     - target: {fileID: 2992294052692036372, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
       propertyPath: m_RootOrder
@@ -74,7 +78,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2296161047606720775, guid: 7dd524b18c5befe4d8de4601b1ee9324, type: 3}
   m_PrefabInstance: {fileID: 5146959174831606295}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &435554221
+--- !u!114 &7862528724900708904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,12 +87,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6390667619282285328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c929f1b9bbf649340a1bf5992e913959, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b712a4b75a69e345aeeca1aff1be05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  symbol: 0
-  value: 6
-  cost: 10
-  interest: 10
-  funtionality: 10
-  gameObjectModel: {fileID: 6704058567114982939, guid: e42242142db731b4895402b24258b777, type: 3}
+  symbol: 3
+  value: 11
+  cost: 6
+  interest: 6
+  funtionality: 6
+  gameObjectModel: {fileID: 0}
