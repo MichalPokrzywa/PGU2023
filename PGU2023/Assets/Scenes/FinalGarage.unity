@@ -200,8 +200,20 @@ PrefabInstance:
       value: Hand
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: deck
+      value: 
+      objectReference: {fileID: 2052334014}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: cardSize
       value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: cardWidth
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: maxNumberOfCarddsInHand
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711526, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: m_RootOrder
@@ -471,6 +483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69b75f6654543564d8a86f09ec28b521, type: 3}
+--- !u!1 &2052334014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5323070452673296997, guid: 69b75f6654543564d8a86f09ec28b521, type: 3}
+  m_PrefabInstance: {fileID: 2052334013}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9160267057865506488
 PrefabInstance:
   m_ObjectHideFlags: 0
