@@ -9,6 +9,7 @@ public class HandManager : MonoBehaviour
 
     public List<GameObject> cardObjects;
     [SerializeField] float cardSize;
+    [SerializeField] int cardStart;
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -23,6 +24,10 @@ public class HandManager : MonoBehaviour
     void Start()
     {
         cardObjects = new List<GameObject>();
+        for (int i = 0; i < cardStart; i++)
+        {
+            add(DeckManager.instance.getRandom());
+        }
     }
 
     public void add(GameObject card)
@@ -39,5 +44,7 @@ public class HandManager : MonoBehaviour
         {
             //g.Instantiate(tilePrefab, new Vector3(1.1f * i * tileSize, 0f, 1.1f * j * tileSize), Quaternion.identity, this.transform);
         }
+        
     }
+
 }
