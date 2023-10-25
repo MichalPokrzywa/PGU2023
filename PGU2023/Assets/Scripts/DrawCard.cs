@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DrawCard : MonoBehaviour
 {
-    private void OnMouseOver()
+    void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0))
         {

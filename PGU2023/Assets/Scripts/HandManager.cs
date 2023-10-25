@@ -12,6 +12,7 @@ public class HandManager : MonoBehaviour
     public List<GameObject> cardObjects;
     [SerializeField] float cardWidth;
     [SerializeField] float maxNumberOfCarddsInHand;
+    GameObject choosenCard;
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -25,6 +26,7 @@ public class HandManager : MonoBehaviour
     }
     void Start()
     {
+        choosenCard = null;
         cardObjects = new List<GameObject>();
     }
 
@@ -32,6 +34,7 @@ public class HandManager : MonoBehaviour
     {
         if (!(cardObjects.Count == maxNumberOfCarddsInHand))
         {
+
             Debug.Log("y" + deck.transform.position.y);
             Debug.Log("z" + deck.transform.position.z);
             Debug.Log("x" + deck.transform.position.x);
@@ -49,5 +52,23 @@ public class HandManager : MonoBehaviour
         {
             //g.Instantiate(tilePrefab, new Vector3(1.1f * i * tileSize, 0f, 1.1f * j * tileSize), Quaternion.identity, this.transform);
         }
+    }
+
+    public void chooseCard(GameObject card)
+    {
+        choosenCard = card;
+    }
+
+    public GameObject getChoosenCard()
+    {
+        return choosenCard;
+    }
+
+    public void moveCard(GameObject tile)
+    {
+        if (choosenCard == null) 
+            return;
+        //wizualizacja budynku w tym miejscu
+        Debug.Log("Jestem tu w mroku, a dokladniej chce karte " + choosenCard.name + " na " + tile.name);
     }
 }

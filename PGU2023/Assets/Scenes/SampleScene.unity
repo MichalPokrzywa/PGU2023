@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &601927962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 401201935468711520, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+  m_PrefabInstance: {fileID: 1421355617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,8 +375,20 @@ PrefabInstance:
       value: Hand
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: deck
+      value: 
+      objectReference: {fileID: 601927962}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: cardStart
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: cardWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: maxNumberOfCarddsInHand
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711526, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: m_RootOrder
@@ -379,15 +396,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711526, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.873806
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711526, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -329.73508
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711526, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 114.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711526, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: m_LocalRotation.w
