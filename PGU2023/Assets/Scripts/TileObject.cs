@@ -7,13 +7,13 @@ public class TileObject : MonoBehaviour
     CardObject card;
     public bool hasCard = false;
 
-    public void PutCard(CardObject slottedCard)
+    void ShowBuilding()
     {
-        card = slottedCard;
+        card.Build();
     }
 
 
-    private void OnCollisionStay(Collision collision)
+    void OnCollisionStay(Collision collision)
     {
         if(hasCard) return;
         
@@ -25,7 +25,8 @@ public class TileObject : MonoBehaviour
             hasCard = true;
             card = collision.gameObject.GetComponent<CardObject>();
             HandManager.instance.removeCard(card.gameObject);
-          
+            collision.gameObject.transform.parent = this.transform;
+            ShowBuilding();
         }
     }
 }

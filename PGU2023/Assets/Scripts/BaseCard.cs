@@ -10,8 +10,4 @@ public class BaseCard : CardObject
         //moc podstawowej karty
     }
 
-    public override void Build()
-    {
-        //buduje budynek
-    }
 }

@@ -10,9 +10,4 @@ public class SpecjalCard : CardObject
         interest += cost / 10;
         funtionality += cost / 10;
     }
-
-    public override void Build()
-    {
-        //buduje budynek
-    }
 }

@@ -69,7 +69,10 @@ public class CardObject : MonoBehaviour
 
     public virtual void Build()
     {
-        //stawianie budynku
+        this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+        Instantiate(gameObjectModel, this.gameObject.transform.parent);
+        //if(gameObjectModel != null)
+        //    gameObjectModel.SetActive(true);
     }
 
 }

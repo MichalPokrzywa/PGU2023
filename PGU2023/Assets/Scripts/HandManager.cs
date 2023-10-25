@@ -7,8 +7,6 @@ public class HandManager : MonoBehaviour
     private static HandManager _instance;
     public static HandManager instance => _instance;
 
-    [SerializeField] private GameObject deck;
-
     public List<GameObject> cardObjects;
     [SerializeField] float cardWidth;
     [SerializeField] float maxNumberOfCarddsInHand;
@@ -35,22 +33,12 @@ public class HandManager : MonoBehaviour
         if (!(cardObjects.Count == maxNumberOfCarddsInHand))
         {
 
-          /*  Debug.Log("y" + deck.transform.position.y);
-            Debug.Log("z" + deck.transform.position.z);
-            Debug.Log("x" + deck.transform.position.x);
-            Debug.Log(1.2f * cardObjects.Count * cardWidth + " " + deck.transform.position.y + " " + deck.transform.position.z);*/
-            Instantiate(card, new Vector3(deck.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), deck.transform.position.y, deck.transform.position.z), Quaternion.identity, this.transform);
-            cardObjects.Add(card);
-        }
-        //showCards();
-    }
-
-    void showCards()
-    {
-        //usunac stare
-        foreach (GameObject g in cardObjects)
-        {
-            //g.Instantiate(tilePrefab, new Vector3(1.1f * i * tileSize, 0f, 1.1f * j * tileSize), Quaternion.identity, this.transform);
+          /*  Debug.Log("y" + DeckManager.instance.transform.position.y);
+            Debug.Log("z" + DeckManager.instance.transform.position.z);
+            Debug.Log("x" + DeckManager.instance.transform.position.x);
+            Debug.Log(1.2f * cardObjects.Count * cardWidth + " " + DeckManager.instance.transform.position.y + " " + DeckManager.instance.transform.position.z);*/
+            GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
+            cardObjects.Add(temp);
         }
     }
 
@@ -59,32 +47,27 @@ public class HandManager : MonoBehaviour
         choosenCard = card;
     }
 
+    public void updateHand()
+    {
+        for (int i = 0; i < cardObjects.Count; i++)
+        {
+            cardObjects[i].transform.position =
+                new Vector3(DeckManager.instance.transform.position.x - (1.2f * (i + 1) * cardWidth),
+                    DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z);
+        }
+    }
     public void removeCard(GameObject card)
     {
         Debug.Log(card);
 
-        cardObjects.RemoveAll(item => item == card);
-      /*  if (cardObjects.Contains(card))
+        if (cardObjects.Contains(card))
         {
             cardObjects.Remove(card);
+            updateHand();
         }
         else
         {
             Debug.Log("Nie ma takiej karty w rece");
-        }*/
-        Debug.Log(cardObjects.Count);
-    }
-
-    public GameObject getChoosenCard()
-    {
-        return choosenCard;
-    }
-
-    public void moveCard(GameObject tile)
-    {
-        if (choosenCard == null) 
-            return;
-        //wizualizacja budynku w tym miejscu
-        Debug.Log("Jestem tu w mroku, a dokladniej chce karte " + choosenCard.name + " na " + tile.name);
+        }
     }
 }
