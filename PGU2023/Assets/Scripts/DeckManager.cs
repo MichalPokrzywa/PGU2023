@@ -33,7 +33,7 @@ public class DeckManager : MonoBehaviour
     {
         int index = Random.Range(0, cardObjects.Length);
         
-        Debug.Log(cardObjects[index].name);
+        Debug.Log(cardObjects[index]);
 
         //usunac karte z talii (moze kiedys)
 

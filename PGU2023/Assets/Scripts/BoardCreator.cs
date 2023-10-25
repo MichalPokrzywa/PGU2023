@@ -15,7 +15,7 @@ public class BoardCreator : MonoBehaviour
         {
             for(int j = 0; j < m; j++) 
             {
-                Instantiate(tilePrefab,new Vector3(1.1f * i * tileSize , 0f,1.1f * j *tileSize), Quaternion.identity,this.transform);
+                Instantiate(tilePrefab,new Vector3(1.1f * i * tileSize + transform.position.x , transform.position.y,1.1f * j *tileSize + transform.position.z), Quaternion.identity,this.transform);
             }
         }
     }

@@ -12,7 +12,7 @@ public class HandManager : MonoBehaviour
     public List<GameObject> cardObjects;
     [SerializeField] float cardWidth;
     [SerializeField] float maxNumberOfCarddsInHand;
-    GameObject choosenCard;
+    public GameObject choosenCard;
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -35,10 +35,10 @@ public class HandManager : MonoBehaviour
         if (!(cardObjects.Count == maxNumberOfCarddsInHand))
         {
 
-            Debug.Log("y" + deck.transform.position.y);
+          /*  Debug.Log("y" + deck.transform.position.y);
             Debug.Log("z" + deck.transform.position.z);
             Debug.Log("x" + deck.transform.position.x);
-            Debug.Log(1.2f * cardObjects.Count * cardWidth + " " + deck.transform.position.y + " " + deck.transform.position.z);
+            Debug.Log(1.2f * cardObjects.Count * cardWidth + " " + deck.transform.position.y + " " + deck.transform.position.z);*/
             Instantiate(card, new Vector3(deck.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), deck.transform.position.y, deck.transform.position.z), Quaternion.identity, this.transform);
             cardObjects.Add(card);
         }
@@ -57,6 +57,22 @@ public class HandManager : MonoBehaviour
     public void chooseCard(GameObject card)
     {
         choosenCard = card;
+    }
+
+    public void removeCard(GameObject card)
+    {
+        Debug.Log(card);
+
+        cardObjects.RemoveAll(item => item == card);
+      /*  if (cardObjects.Contains(card))
+        {
+            cardObjects.Remove(card);
+        }
+        else
+        {
+            Debug.Log("Nie ma takiej karty w rece");
+        }*/
+        Debug.Log(cardObjects.Count);
     }
 
     public GameObject getChoosenCard()
