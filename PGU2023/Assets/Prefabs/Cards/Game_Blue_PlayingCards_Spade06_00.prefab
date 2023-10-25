@@ -120,8 +120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 0
-  value: 0
-  cost: 0
-  interest: 0
-  funtionality: 0
-  gameObjectModel: {fileID: 0}
+  value: 1
+  cost: 1
+  interest: 1
+  funtionality: 1
+  gameObjectModel: {fileID: 1278665023481602, guid: ae4a79d982f6ed7469414c0a2b0a0b90, type: 3}
+  isDragged: 0

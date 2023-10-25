@@ -128,4 +128,5 @@ MonoBehaviour:
   cost: 10
   interest: 10
   funtionality: 10
-  gameObjectModel: {fileID: 6704058567114982939, guid: e42242142db731b4895402b24258b777, type: 3}
+  gameObjectModel: {fileID: 1662837858102748, guid: c7f16756cd602174f9e5c60d3ce995f9, type: 3}
+  isDragged: 0
