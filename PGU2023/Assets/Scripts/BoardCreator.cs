@@ -20,4 +20,9 @@ public class BoardCreator : MonoBehaviour
         }
     }
 
+    public int getNumberOfTiles()
+    {
+        return n * m;
+    }
+
 }

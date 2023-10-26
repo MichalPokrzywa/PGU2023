@@ -10,6 +10,9 @@ public class HandManager : MonoBehaviour
     public List<GameObject> cardObjects;
     [SerializeField] float cardWidth;
     [SerializeField] float maxNumberOfCarddsInHand;
+    private int cardsDrawn = 0;
+    private int maxNumberOfCardsToDraw;
+    public GameObject boardCreator;
     public GameObject choosenCard;
     void Awake()
     {
@@ -26,20 +29,18 @@ public class HandManager : MonoBehaviour
     {
         choosenCard = null;
         cardObjects = new List<GameObject>();
+        maxNumberOfCardsToDraw = boardCreator.GetComponent<BoardCreator>().getNumberOfTiles();
     }
 
     public void add(GameObject card)
     {
-        if (!(cardObjects.Count == maxNumberOfCarddsInHand))
-        {
-
-          /*  Debug.Log("y" + DeckManager.instance.transform.position.y);
-            Debug.Log("z" + DeckManager.instance.transform.position.z);
-            Debug.Log("x" + DeckManager.instance.transform.position.x);
-            Debug.Log(1.2f * cardObjects.Count * cardWidth + " " + DeckManager.instance.transform.position.y + " " + DeckManager.instance.transform.position.z);*/
+        if (cardObjects.Count == maxNumberOfCarddsInHand) return;
+        if (cardsDrawn == maxNumberOfCardsToDraw) return;
+        
             GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
             cardObjects.Add(temp);
-        }
+            cardsDrawn++;
+        
     }
 
     public void chooseCard(GameObject card)
