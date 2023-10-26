@@ -212,6 +212,14 @@ PrefabInstance:
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: boardCreator
+      value: 
+      objectReference: {fileID: 1540765684}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
+      propertyPath: maxNumberOfCardsToDraw
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 401201935468711521, guid: 8ecd6cfcc0578ed4bb6eef47204ea38b, type: 3}
       propertyPath: maxNumberOfCarddsInHand
       value: 7
       objectReference: {fileID: 0}
@@ -453,7 +461,7 @@ MonoBehaviour:
   target: {fileID: 745296363}
   rotationSpeed: -0.4
   zoomSpeed: 5
-  minZoomDistance: 1
+  minZoomDistance: 0.73
   maxZoomDistance: 1.57
 --- !u!1 &1060010800
 GameObject:
@@ -520,6 +528,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1540765684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3220922428119111779, guid: 5583d79d60922a747bf547aeca90f75b, type: 3}
+  m_PrefabInstance: {fileID: 783507483}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2052334013
 PrefabInstance:
   m_ObjectHideFlags: 0
