@@ -7,9 +7,9 @@ public class TileObject : MonoBehaviour
     CardObject card;
     public bool hasCard = false;
 
-    void ShowBuilding()
+    bool ShowBuilding()
     {
-        card.Build();
+        return card.Build();
     }
 
 
@@ -26,7 +26,10 @@ public class TileObject : MonoBehaviour
             card = collision.gameObject.GetComponent<CardObject>();
             HandManager.instance.removeCard(card.gameObject);
             collision.gameObject.transform.parent = this.transform;
-            ShowBuilding();
+            if (!ShowBuilding())
+            {
+                hasCard = false;
+            }
         }
     }
 }

@@ -23,6 +23,8 @@ public class CardObject : MonoBehaviour
 
     public bool isDragged = false;
 
+    private bool buildOnce = true;
+
     private float initialYPosition;
     private Plane dragPlane;
     private Camera mainCamera;
@@ -76,10 +78,16 @@ public class CardObject : MonoBehaviour
         //umiejka karty
     }
 
-    public virtual void Build()
+    public virtual bool Build()
     {
-        this.gameObject.GetComponent<MeshRenderer>().enabled = false;
-        Instantiate(gameObjectModel, this.gameObject.transform.parent);
+        if (buildOnce) 
+        { 
+            this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            Instantiate(gameObjectModel, this.gameObject.transform.parent);
+            buildOnce = false;
+            return true;
+        }
+        return false;
         //if(gameObjectModel != null)
         //    gameObjectModel.SetActive(true);
     }
