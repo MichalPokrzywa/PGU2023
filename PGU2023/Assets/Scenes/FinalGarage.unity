@@ -540,6 +540,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3511942333126082277, guid: 69b75f6654543564d8a86f09ec28b521, type: 3}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 2807481473971541021, guid: cfda22ba62ab23f4d9595b7a95ebf2dc, type: 3}
+    - target: {fileID: 3511942333126082277, guid: 69b75f6654543564d8a86f09ec28b521, type: 3}
+      propertyPath: cardPrefab
+      value: 
+      objectReference: {fileID: 2807481473971541021, guid: cfda22ba62ab23f4d9595b7a95ebf2dc, type: 3}
     - target: {fileID: 5323070452673296997, guid: 69b75f6654543564d8a86f09ec28b521, type: 3}
       propertyPath: m_Name
       value: Blue_ManyDeck_00

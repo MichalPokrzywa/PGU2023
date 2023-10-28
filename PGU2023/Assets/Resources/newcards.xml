@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CardsColection>
+	<Cards>
+		<Card Name="Card1">
+			<Symbol>Hearts</Symbol>
+			<Value>10</Value>
+			<Cost>5</Cost>
+			<Interest>2</Interest>
+			<Functionality>1</Functionality>
+			<GameObjectPath>Models/House1</GameObjectPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Card2">
+			<Symbol>Diamond</Symbol>
+			<Value>7</Value>
+			<Cost>3</Cost>
+			<Interest>1</Interest>
+			<Functionality>2</Functionality>
+			<GameObjectPath>Models/House2</GameObjectPath>
+			<IsSpecial>true</IsSpecial>
+		</Card>
+	</Cards>
+</CardsColection>

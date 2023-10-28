@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -61,7 +62,15 @@ public class CardObject : MonoBehaviour
         isDragged = false;
     }
 
-  
+    public void setCardValues(Card cardFile)
+    {
+        symbol = Enum.Parse<Symbol>(cardFile.Symbol);
+        value = cardFile.Value;
+        cost = cardFile.Cost;
+        interest = cardFile.Interest;
+        funtionality = cardFile.Functionality;
+        gameObjectModel = Resources.Load<GameObject>(cardFile.GameObjectPath);
+    }
     public virtual void PowerUp()
     {
         //umiejka karty

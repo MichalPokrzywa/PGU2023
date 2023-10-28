@@ -37,9 +37,10 @@ public class HandManager : MonoBehaviour
         if (cardObjects.Count == maxNumberOfCarddsInHand) return;
         if (cardsDrawn == maxNumberOfCardsToDraw) return;
         
-            GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
-            cardObjects.Add(temp);
-            cardsDrawn++;
+        GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
+        cardObjects.Add(temp);
+        temp.hideFlags = HideFlags.None;
+        cardsDrawn++;
         
     }
 
