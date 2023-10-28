@@ -42,11 +42,8 @@ public class DeckManager : MonoBehaviour
 
     void CreateCard(Card card)
     {
-        // Instantiate a new card based on the cardPrefab
         GameObject newCard = Instantiate(cardPrefab);
-        // Parent the new card to the container
         newCard.hideFlags = HideFlags.HideInHierarchy;
-        // Add the container to the list
         if (card.IsSpecial)
         {
             newCard.AddComponent<SpecjalCard>();

@@ -17,24 +17,15 @@ public class CardsColection
 
         TextAsset _xml = Resources.Load<TextAsset>(path);
         XmlSerializer serializer = new XmlSerializer(typeof(CardsColection));
-        //try
-        //{
-            StringReader reader = new StringReader(_xml.text);
-            CardsColection cardsColection = serializer.Deserialize(reader) as CardsColection;
-            reader.Close();
-
-            if (cardsColection == null)
-            {
+        StringReader reader = new StringReader(_xml.text);
+        CardsColection cardsColection = serializer.Deserialize(reader) as CardsColection;
+        reader.Close();
+        if (cardsColection == null)
+        {
                 Debug.LogError("Failed to deserialize XML data.");
-            }
+        }
 
-            return cardsColection;
-        //}
-        //catch (Exception e)
-        //{
-        //    Debug.LogError("Error loading XML: " + e.Message);
-        //    return null;
-        //}
+        return cardsColection;
     }
 
 }
