@@ -19,4 +19,9 @@ public class SpecjalCard : CardObject
 
         return (updatedValue, updatedCost, updatedInterest, updatedFuntionality);
     }
+
+    public override bool IsCardSpecial()
+    {
+        return true;
+    }
 }

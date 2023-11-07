@@ -13,4 +13,9 @@ public class BaseCard : CardObject
     {
         return starTuple;
     }
+
+    public override bool IsCardSpecial()
+    {
+        return false;
+    }
 }

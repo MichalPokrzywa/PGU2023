@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class TileObject : MonoBehaviour
 {
-    CardObject card;
+    public CardObject card;
     public bool hasCard = false;
-    (int value, int cost, int interest, int functionality) currentValue;
+    public int row, col;
+    public (int value, int cost, int interest, int functionality) currentValue;
     bool ShowBuilding()
     {
         return card.Build();
@@ -37,14 +38,20 @@ public class TileObject : MonoBehaviour
             
         }
     }
-
+    public void AssignRowColumn(int row, int column)
+    {
+        this.row = row;
+        this.col = column;
+    }
     public void UpdateValue(CardObject card)
     {
 
     }
-    public void TileChanged(TileObject changedTile)
+    public void PerformSpecialAction(TileObject changedTile)
     {
-        
+        if (changedTile == null) return;
+
+        currentValue = card.UpdateValue(currentValue);
     }
     public (int currentValue, int currentCost, int currentInterest, int currrentFuntionality) sendScore()
     {

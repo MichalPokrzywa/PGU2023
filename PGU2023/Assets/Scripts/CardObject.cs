@@ -63,6 +63,11 @@ public class CardObject : MonoBehaviour
     {
         isDragged = false;
     }
+
+    public virtual bool IsCardSpecial()
+    {
+        return false;
+    }
     public (int startValue, int startCost, int startInterest, int startFuntionality) GetValueTuple()
     {
         return (value, cost, interest, funtionality);
