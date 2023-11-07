@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,11 +14,12 @@ public class TileObject : MonoBehaviour
         return card.Build();
     }
 
-
     void OnCollisionStay(Collision collision)
     {
         if(hasCard) return;
-        
+
+        if (collision.gameObject.GetComponent<CardObject>() == null) return;
+
         bool dragged = collision.gameObject.GetComponent<CardObject>().isDragged;
 
         if (!dragged)
