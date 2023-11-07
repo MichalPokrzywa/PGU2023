@@ -15,7 +15,8 @@ public class BoardCreator : MonoBehaviour
         {
             for(int j = 0; j < m; j++) 
             {
-                Instantiate(tilePrefab,new Vector3(i * tileSize + transform.position.x , transform.position.y, j *tileSize + transform.position.z), Quaternion.identity,this.transform);
+                GameObject temp = Instantiate(tilePrefab,new Vector3(i * tileSize + transform.position.x , transform.position.y, j *tileSize + transform.position.z), Quaternion.identity,this.transform);
+                TileManager.instance.AddTile(temp.GetComponent<TileObject>());
             }
         }
     }

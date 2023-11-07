@@ -6,7 +6,7 @@ public class TileObject : MonoBehaviour
 {
     CardObject card;
     public bool hasCard = false;
-
+    (int value, int cost, int interest, int functionality) currentValue;
     bool ShowBuilding()
     {
         return card.Build();
@@ -17,7 +17,6 @@ public class TileObject : MonoBehaviour
     {
         if(hasCard) return;
         
-
         bool dragged = collision.gameObject.GetComponent<CardObject>().isDragged;
 
         if (!dragged)
@@ -30,6 +29,25 @@ public class TileObject : MonoBehaviour
             {
                 hasCard = false;
             }
+            else
+            {
+                TileManager.instance.InformTiles(this);
+                currentValue = card.GetValueTuple();
+            }
+            
         }
+    }
+
+    public void UpdateValue(CardObject card)
+    {
+
+    }
+    public void TileChanged(TileObject changedTile)
+    {
+        
+    }
+    public (int currentValue, int currentCost, int currentInterest, int currrentFuntionality) sendScore()
+    {
+        return currentValue;
     }
 }

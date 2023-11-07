@@ -9,5 +9,8 @@ public class BaseCard : CardObject
     {
         //moc podstawowej karty
     }
-
+    public override (int updatedValue, int updatedCost, int updatedInterest, int updatedFuntionality) UpdateValue((int startValue, int startCost, int startInterest, int startFuntionality) starTuple)
+    {
+        return starTuple;
+    }
 }

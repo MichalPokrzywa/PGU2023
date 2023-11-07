@@ -63,8 +63,11 @@ public class CardObject : MonoBehaviour
     {
         isDragged = false;
     }
-
-    public void setCardValues(Card cardFile)
+    public (int startValue, int startCost, int startInterest, int startFuntionality) GetValueTuple()
+    {
+        return (value, cost, interest, funtionality);
+    }
+    public void SetCardValues(Card cardFile)
     {
         symbol = Enum.Parse<Symbol>(cardFile.Symbol);
         value = cardFile.Value;
@@ -78,6 +81,10 @@ public class CardObject : MonoBehaviour
         //umiejka karty
     }
 
+    public virtual (int updatedValue, int updatedCost, int updatedInterest, int updatedFuntionality) UpdateValue((int startValue, int startCost, int startInterest, int startFuntionality) starTuple)
+    {
+        return (0, 0, 0, 0);
+    }
     public virtual bool Build()
     {
         if (buildOnce) 
@@ -88,8 +95,8 @@ public class CardObject : MonoBehaviour
             return true;
         }
         return false;
-        //if(gameObjectModel != null)
-        //    gameObjectModel.SetActive(true);
     }
+
+
 
 }

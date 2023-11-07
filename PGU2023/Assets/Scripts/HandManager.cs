@@ -60,7 +60,7 @@ public class HandManager : MonoBehaviour
     }
     public void removeCard(GameObject card)
     {
-        Debug.Log(card);
+        //Debug.Log(card);
 
         if (cardObjects.Contains(card))
         {
@@ -69,7 +69,7 @@ public class HandManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Nie ma takiej karty w rece");
+            //Debug.Log("Nie ma takiej karty w rece");
         }
     }
 }

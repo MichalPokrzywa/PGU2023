@@ -54,7 +54,7 @@ public class DeckManager : MonoBehaviour
         }
 
         CardObject cardObject = newCard.GetComponent<CardObject>();
-        cardObject.setCardValues(card);
+        cardObject.SetCardValues(card);
         newCard.name = card.Name;
         cardObjects.Add(newCard);
        
