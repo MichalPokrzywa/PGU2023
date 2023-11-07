@@ -45,5 +45,6 @@ public class GameManager : MonoBehaviour
             totalInterest += tile.currentValue.interest;
             totalFunctionality += tile.currentValue.functionality;
         }
+        GameCanvas.instance.UpdateStats(totalValue, totalCost, totalInterest, totalFunctionality);
     }
 }

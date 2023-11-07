@@ -33,11 +33,8 @@ public class TileManager : MonoBehaviour
         }
     }
 
-
-
     public void InformTiles(TileObject tile)
     {
-        Debug.Log("hello");        
         // Iterate through neighboring tiles and perform actions
         foreach (TileObject neighbor in GetNeighborTiles(tile))
         {
@@ -51,6 +48,7 @@ public class TileManager : MonoBehaviour
                 }
             }
         }
+        GameManager.instance.UpdateScore();
     }
 
     public void getRowsColumns(int rows, int col)

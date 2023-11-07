@@ -32,8 +32,8 @@ public class TileObject : MonoBehaviour
             }
             else
             {
-                TileManager.instance.InformTiles(this);
                 currentValue = card.GetValueTuple();
+                TileManager.instance.InformTiles(this);
             }
             
         }
@@ -49,7 +49,7 @@ public class TileObject : MonoBehaviour
     }
     public void PerformSpecialAction(TileObject changedTile)
     {
-        if (changedTile == null) return;
+        if (changedTile == null || card == null) return;
 
         currentValue = card.UpdateValue(currentValue);
     }
