@@ -1112,6 +1112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera1: {fileID: 963194225}
   camera2: {fileID: 1376820193}
+  bomb: {fileID: 1015810803}
 --- !u!1 &512226228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,6 +1902,11 @@ MonoBehaviour:
   zoomSpeed: 5
   minZoomDistance: 0.73
   maxZoomDistance: 1.57
+--- !u!1 &1015810803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1985444978299803966, guid: 0c3de837aa13a354f96b45c2dda65ffb, type: 3}
+  m_PrefabInstance: {fileID: 33597084}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1060010800
 GameObject:
   m_ObjectHideFlags: 0
