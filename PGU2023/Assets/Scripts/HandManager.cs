@@ -38,6 +38,7 @@ public class HandManager : MonoBehaviour
         if (cardsDrawn == maxNumberOfCardsToDraw) return;
         
         GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
+        temp.GetComponent<CardObject>().setIndex(cardObjects.Count);
         cardObjects.Add(temp);
         temp.hideFlags = HideFlags.None;
         cardsDrawn++;
@@ -69,7 +70,23 @@ public class HandManager : MonoBehaviour
         }
         else
         {
-            //Debug.Log("Nie ma takiej karty w rece");
+            Debug.Log("Nie ma takiej karty w rece");
+        }
+    }
+
+    public void removeCard(int index)
+    {
+        //Debug.Log(card);
+
+        if (index >= cardObjects.Count)
+        {
+            Debug.Log("Nie ma takiej karty w rece");
+        }
+        else
+        {
+            Debug.Log("Usuwam karte o indeksie " + index);
+            cardObjects.RemoveAt(index);
+            updateHand();
         }
     }
 }

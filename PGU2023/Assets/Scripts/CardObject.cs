@@ -29,6 +29,7 @@ public class CardObject : MonoBehaviour
     private Plane dragPlane;
     private Camera mainCamera;
     private Vector3 targetPosition;
+    private int handIndex;
 
     private void Start()
     {
@@ -103,6 +104,15 @@ public class CardObject : MonoBehaviour
         return false;
     }
 
+    public void setIndex(int index)
+    {
+        handIndex = index;
+    }
+
+    public int getIndex()
+    {
+        return handIndex;
+    }
 
 
 }
