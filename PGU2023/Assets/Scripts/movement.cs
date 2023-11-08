@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class movement : MonoBehaviour
@@ -7,12 +8,11 @@ public class movement : MonoBehaviour
     public float speed = 0.01f;
     Rigidbody rb;
     float translation;
-    float straffe;
+    float straffe;  
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
     }
 
     // Update is called once per frame
@@ -20,7 +20,6 @@ public class movement : MonoBehaviour
     {
         translation = Input.GetAxis("Vertical") * speed * Time.fixedTime;
         straffe = Input.GetAxis("Horizontal") * speed * Time.fixedTime;
-
 
     }
 
