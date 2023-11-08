@@ -767,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4182813490069355860, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
       propertyPath: speed
-      value: 0.002
+      value: 0.007
       objectReference: {fileID: 0}
     - target: {fileID: 4182813490069355860, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
       propertyPath: table
@@ -776,6 +776,10 @@ PrefabInstance:
     - target: {fileID: 4182813490069355860, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
       propertyPath: margin
       value: 0.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182813490069355860, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
+      propertyPath: maxSpeed
+      value: 0.007
       objectReference: {fileID: 0}
     - target: {fileID: 5489994331975049998, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
       propertyPath: m_Enabled
