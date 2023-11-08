@@ -12,7 +12,7 @@ public class DrawCard : MonoBehaviour
                 return;
             }
             GameObject card = DeckManager.instance.getRandom();
-            /*Debug.Log(card.name);*/
+            
             HandManager.instance.add(card);
             //wywolujemy handmanager: add
         }        

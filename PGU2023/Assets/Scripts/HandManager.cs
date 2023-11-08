@@ -30,12 +30,21 @@ public class HandManager : MonoBehaviour
         choosenCard = null;
         cardObjects = new List<GameObject>();
         maxNumberOfCardsToDraw = boardCreator.GetComponent<BoardCreator>().getNumberOfTiles();
+        maxNumberOfCardsToDraw += BombManager.instance.getBombCount();
     }
 
     public void add(GameObject card)
     {
-        if (cardObjects.Count == maxNumberOfCarddsInHand) return;
-        if (cardsDrawn == maxNumberOfCardsToDraw) return;
+        if (cardObjects.Count == maxNumberOfCarddsInHand)
+        {
+            Debug.Log("Warunek A");
+            return;
+        }
+        if (cardsDrawn == maxNumberOfCardsToDraw)
+        {
+            //Debug.Log("Warunek B");
+            return;
+        }
         
         GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
         temp.GetComponent<CardObject>().setIndex(cardObjects.Count);
