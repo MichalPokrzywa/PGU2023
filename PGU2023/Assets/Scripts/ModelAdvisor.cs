@@ -8,7 +8,7 @@ public class ModelAdvisor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.AddComponent<MeshCollider>();
+        this.AddComponent<BoxCollider>();
     }
 
 }
