@@ -18,6 +18,7 @@ public class ChangeCamera : MonoBehaviour
     // Call this method to swap the active cameras
     public void SwapCameras()
     {
+        GameManager.instance.isInWalkMode = !GameManager.instance.isInWalkMode;
         camera1.SetActive(!camera1.activeSelf);
         camera2.SetActive(!camera2.activeSelf);
     }

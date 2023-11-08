@@ -41,6 +41,7 @@ public class CardObject : MonoBehaviour
 
     private void OnMouseDrag()
     {
+        if(GameManager.instance.isInWalkMode) return;
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         float enter;
         isDragged = true;

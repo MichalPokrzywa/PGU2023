@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
 
     public int totalFunctionality = 0;
 
+    public bool isInWalkMode = false;
+
     void Awake()
     {
         if (_instance != null && _instance != this)

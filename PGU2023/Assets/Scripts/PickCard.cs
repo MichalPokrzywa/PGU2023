@@ -8,6 +8,10 @@ public class PickCard : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         { 
+            if(GameManager.instance.isInWalkMode == true)
+            {
+                return;
+            }
             HandManager.instance.chooseCard(this.gameObject);
         }
     }
