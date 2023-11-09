@@ -7,9 +7,8 @@ using UnityEngine;
 
 public class LevelColection : MonoBehaviour
 {
-    public List<Level> levels = new List<Level>();
 
-    public static LevelColection LoadLevels(string path)
+    public static List<Level> LoadLevels(string path)
     {
         TextAsset _xml = Resources.Load<TextAsset>(path);
         MemoryStream stream = new MemoryStream(_xml.bytes);
@@ -18,8 +17,7 @@ public class LevelColection : MonoBehaviour
         using (StreamReader reader = new StreamReader(stream))
         {
             var test = (Levels)serializer.Deserialize(reader);
-            Debug.Log(test.Level.Count);
-            return null;
+            return test.Level;
         }
 
     }
