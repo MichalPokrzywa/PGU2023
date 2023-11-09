@@ -54,6 +54,9 @@ public class Level
     [XmlAttribute("Name")]
     public string Name { get; set; }
 
+    [XmlElement(ElementName = "description")]
+    public string Description { get; set; }
+
 }
 
 [XmlRoot(ElementName = "levels")]

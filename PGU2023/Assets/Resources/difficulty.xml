@@ -14,7 +14,8 @@
 				<Interest>0</Interest>
 				<Functionality>0</Functionality>
 			</max>
-			<IconLevelPath>Models/House1</IconLevelPath>
+			<IconLevelPath>DiffIcon/level1</IconLevelPath>
+			<description>Level1</description>
 		</level>
 		<level Name="Normal">
 			<Bombs>2</Bombs>
@@ -30,6 +31,7 @@
 				<Interest>0</Interest>
 				<Functionality>0</Functionality>
 			</max>
-			<IconLevelPath>Models/House1</IconLevelPath>
+			<IconLevelPath>DiffIcon/level2</IconLevelPath>
+			<description>Level2</description>
 		</level>
 	</levels>
