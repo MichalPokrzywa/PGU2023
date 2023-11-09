@@ -27,7 +27,6 @@ public class BombManager : MonoBehaviour
     private void Start()
     {
         startPosition = transform.position;
-        bombCount *= 2;
     }
 
     public void OnCollisionStay(Collision collision)
@@ -46,8 +45,6 @@ public class BombManager : MonoBehaviour
         Destroy(card.gameObject);
         
 
-        //Debug.Log("WYWOLUJE SIE 2 RAZY");
-
         bombCount--;
         if (bombCount <= 0)
         {
@@ -61,6 +58,6 @@ public class BombManager : MonoBehaviour
 
     public int getBombCount()
     {
-        return bombCount / 2;
+        return bombCount;
     }
 }
