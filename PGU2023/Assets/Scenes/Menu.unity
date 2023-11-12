@@ -670,6 +670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 409929488}
   - component: {fileID: 409929489}
+  - component: {fileID: 409929490}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -712,7 +713,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d8d324d677abdf4a9ed0bc005d33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputFieldName: {fileID: 0}
+  inputFieldName: {fileID: 1349966425}
+  button: {fileID: 1123486961}
+  difficultyManagger: {fileID: 1637088236}
+--- !u!114 &409929490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409929487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d818c8467a6d284d9942400c5591306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 0a8274abf0e511a4490116cfe8606d11, type: 2}
 --- !u!1 &629564607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,6 +2159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropdown: {fileID: 1718221223}
   levelImage: {fileID: 995002821}
+  levelText: {fileID: 935414746}
 --- !u!1 &1718221221
 GameObject:
   m_ObjectHideFlags: 0

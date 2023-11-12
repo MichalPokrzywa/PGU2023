@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MenuManager : MonoBehaviour
+public class EndManager : MonoBehaviour
 {
     [SerializeField] TMP_InputField inputFieldName;
     [SerializeField] Button button;
@@ -19,9 +19,9 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void SendValues()
     {
-        var scriptableObject = ScriptableObject.CreateInstance<MoveData>();
-        GetComponent<Writer>().StoreData(inputFieldName.text, difficultyManagger.levels[difficultyManagger.dropdown.value]);
-        DontDestroyOnLoad(scriptableObject);
-        SceneManager.LoadScene("FinalGarage");
+        //var scriptableObject = ScriptableObject.CreateInstance<MoveData>();
+        //GetComponent<EndWriter>().StoreData(inputFieldName.text, difficultyManagger.levels[difficultyManagger.dropdown.value]); //tutaj zaladowanie danych
+        //DontDestroyOnLoad(scriptableObject);
+        //SceneManager.LoadScene("EndingScreen");
     }
 }

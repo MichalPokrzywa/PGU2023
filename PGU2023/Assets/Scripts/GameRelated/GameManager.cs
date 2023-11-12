@@ -30,7 +30,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     public void UpdateScore()
     {
         totalValue = 0;

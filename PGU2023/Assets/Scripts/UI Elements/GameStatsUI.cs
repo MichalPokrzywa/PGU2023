@@ -24,4 +24,5 @@ public class GameStatsUI : MonoBehaviour
         texts[2].text = item3.ToString();
         texts[3].text = item4.ToString();
     }
+
 }

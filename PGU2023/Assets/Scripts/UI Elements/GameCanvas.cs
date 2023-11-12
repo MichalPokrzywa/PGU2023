@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameCanvas : MonoBehaviour
 {
@@ -9,6 +11,12 @@ public class GameCanvas : MonoBehaviour
     public static GameCanvas instance => _instance;
 
     [SerializeField] GameStatsUI statsUi;
+    [SerializeField] Button endButton;
+
+    void Start()
+    {
+        endButton.onClick.AddListener(SendValuesToEnd);
+    }
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -24,6 +32,14 @@ public class GameCanvas : MonoBehaviour
     public void UpdateStats(int item1, int item2, int item3, int item4)
     {
         statsUi.UpdateUiScore(item1, item2, item3, item4);
+    }
+
+    public void SendValuesToEnd()
+    {
+        GameManager manager = GameManager.instance;
+        GetComponent<EndWriter>().StoreData(manager.totalCost,manager.totalValue,manager.totalInterest,manager.totalFunctionality);
+        SceneManager.LoadScene("EndingScreen");
+
     }
 
 }
