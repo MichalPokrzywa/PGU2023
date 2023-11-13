@@ -46,7 +46,7 @@ public class HandManager : MonoBehaviour
             return;
         }
         
-        GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (1.2f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
+        GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (3.6f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
         temp.GetComponent<CardObject>().setIndex(cardObjects.Count);
         cardObjects.Add(temp);
         temp.hideFlags = HideFlags.None;
@@ -64,7 +64,7 @@ public class HandManager : MonoBehaviour
         for (int i = 0; i < cardObjects.Count; i++)
         {
             cardObjects[i].transform.position =
-                new Vector3(DeckManager.instance.transform.position.x - (1.2f * (i + 1) * cardWidth),
+                new Vector3(DeckManager.instance.transform.position.x - (3.6f * (i + 1) * cardWidth),
                     DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z);
         }
     }

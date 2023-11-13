@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33749116825068386}
   - component: {fileID: 23455773068019726}
   - component: {fileID: -3097698156077634636}
+  - component: {fileID: 2386026300179898975}
   m_Layer: 0
   m_Name: House4
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06c4237e11f7d840867853df5d685ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &2386026300179898975
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278665023481602}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.45700002, y: 0.827, z: 0.65400004}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.75600004, z: -0.024}
+  m_TimeToStationary: 0.5

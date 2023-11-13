@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class TileObject : MonoBehaviour
 {
@@ -9,6 +11,14 @@ public class TileObject : MonoBehaviour
     public bool hasCard = false;
     public int row, col;
     public (int value, int cost, int interest, int functionality) currentValue;
+    public NavMeshSurface surface;
+    public GameObject personPrefab;
+
+    private void Start()
+    {
+        surface = GameObject.Find("NavMesh").GetComponent<NavMeshSurface>();
+
+    }
     bool ShowBuilding()
     {
         return card.Build();
@@ -37,9 +47,19 @@ public class TileObject : MonoBehaviour
                 currentValue = card.GetValueTuple();
                 TileManager.instance.InformTiles(this);
             }
-            
+            AddPeople();
+
         }
     }
+
+
+    private void AddPeople()
+    {
+        gameObject.layer = 3; // 3 = Tile layer
+        surface.BuildNavMesh();
+        Instantiate(personPrefab, transform.position, Quaternion.identity);
+    }
+
     public void AssignRowColumn(int row, int column)
     {
         this.row = row;
