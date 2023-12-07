@@ -15,4 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/EndingScreen.unity
     guid: 4dd0c6d46fb24c1479dd9c0b1e8a25c7
   m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f8cbac62ac88962409ab2cdbd77679a1, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cd3bf3778da01a244a4969aaf41aaaee, type: 2}
