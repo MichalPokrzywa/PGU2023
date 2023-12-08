@@ -2,12 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controls the rotation and zooming of the camera around a target position.
+/// </summary>
 public class RotateCamera : MonoBehaviour
 {
-    public Transform target; // The position the camera should always look at
+    /// <summary>
+    /// The position the camera should always look at.
+    /// </summary>
+    public Transform target;
+
+    /// <summary>
+    /// The speed at which the camera rotates around the target.
+    /// </summary>
     public float rotationSpeed = 2.0f;
+
+    /// <summary>
+    /// The speed at which the camera zooms in and out.
+    /// </summary>
     public float zoomSpeed = 5.0f;
+
+    /// <summary>
+    /// The minimum distance the camera can zoom in.
+    /// </summary>
     public float minZoomDistance = 1.0f;
+
+    /// <summary>
+    /// The maximum distance the camera can zoom out.
+    /// </summary>
     public float maxZoomDistance = 10.0f;
 
     private float currentZoomDistance = 5.0f;

@@ -1,0 +1,206 @@
+\doxysection{Card\+Object Class Reference}
+\hypertarget{class_card_object}{}\label{class_card_object}\index{CardObject@{CardObject}}
+
+
+Base class for all card objects in the game.  
+
+
+Inheritance diagram for Card\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_card_object}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{class_card_object_ab829cc4298af951349af8d544d6bb711}{Is\+Card\+Special}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the card is special. \end{DoxyCompactList}\item 
+\Hypertarget{class_card_object_a5f5401679c4117b009ee59029b1db063}\label{class_card_object_a5f5401679c4117b009ee59029b1db063} 
+int int int int start\+Funtionality {\bfseries Get\+Value\+Tuple} ()
+\item 
+void \mbox{\hyperlink{class_card_object_add668ab75dd617705f07d518a4c00e9d}{Set\+Card\+Values}} (Card card\+File)
+\begin{DoxyCompactList}\small\item\em Sets the values of the card based on a Card object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_card_object_a81d78320742d1b40f393b3ec52a5278b}{Power\+Up}} ()
+\begin{DoxyCompactList}\small\item\em Powers up the card. \end{DoxyCompactList}\item 
+\Hypertarget{class_card_object_aa7c59f586b728d1d0b93558d36a27aa0}\label{class_card_object_aa7c59f586b728d1d0b93558d36a27aa0} 
+virtual int int int int updated\+Funtionality {\bfseries Update\+Value} ((int \mbox{\hyperlink{class_card_object_a4849c76c686e500f1febd35577b3f7d1}{start\+Value}}, int start\+Cost, int start\+Interest, int start\+Funtionality) star\+Tuple)
+\item 
+virtual bool \mbox{\hyperlink{class_card_object_a9e15a416809c61aa0b576414b71d478e}{Build}} ()
+\begin{DoxyCompactList}\small\item\em Builds the card. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_card_object_a667904d254389f66f90a5383a0fff585}{set\+Index}} (int index)
+\begin{DoxyCompactList}\small\item\em Sets the index for the card. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_card_object_a6abd0463c30ddd604c9c91ec1c3e2cb7}{get\+Index}} ()
+\begin{DoxyCompactList}\small\item\em Gets the index of the card. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_card_object_a72e83c4b9a67137394b540792f43a133}\label{class_card_object_a72e83c4b9a67137394b540792f43a133} 
+bool {\bfseries is\+Dragged} = false
+\item 
+int \mbox{\hyperlink{class_card_object_a4849c76c686e500f1febd35577b3f7d1}{start\+Value}}
+\begin{DoxyCompactList}\small\item\em Retrieves the tuple containing the card\textquotesingle{}s values. \end{DoxyCompactList}\item 
+\Hypertarget{class_card_object_aebab58cb8d15c454a7fc918a30bed9da}\label{class_card_object_aebab58cb8d15c454a7fc918a30bed9da} 
+int int {\bfseries start\+Cost}
+\item 
+\Hypertarget{class_card_object_a39ff3312343d920dbb58c7af452eb632}\label{class_card_object_a39ff3312343d920dbb58c7af452eb632} 
+int int int {\bfseries start\+Interest}
+\item 
+virtual int \mbox{\hyperlink{class_card_object_adabf1f770bddb1f7cd4aa9b888f6cf3a}{updated\+Value}}
+\begin{DoxyCompactList}\small\item\em Updates the card values based on the provided tuple. \end{DoxyCompactList}\item 
+\Hypertarget{class_card_object_abf579b51e27ad0a07b63d2ae0edea7cd}\label{class_card_object_abf579b51e27ad0a07b63d2ae0edea7cd} 
+virtual int int {\bfseries updated\+Cost}
+\item 
+\Hypertarget{class_card_object_ac7ec67f09f94ea16ac58c711e3fe8035}\label{class_card_object_ac7ec67f09f94ea16ac58c711e3fe8035} 
+virtual int int int {\bfseries updated\+Interest}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_card_object_a3ecd4946671e91899614443795ac23c8}\label{class_card_object_a3ecd4946671e91899614443795ac23c8} 
+Symbol {\bfseries symbol}
+\item 
+\Hypertarget{class_card_object_a95bcd11027af1e7b863b161156c5b9fa}\label{class_card_object_a95bcd11027af1e7b863b161156c5b9fa} 
+int {\bfseries value}
+\item 
+\Hypertarget{class_card_object_a198054c644470164f782bec4c75b4225}\label{class_card_object_a198054c644470164f782bec4c75b4225} 
+int {\bfseries cost}
+\item 
+\Hypertarget{class_card_object_a98c27fa1f6ca82b87e7931d2362a0800}\label{class_card_object_a98c27fa1f6ca82b87e7931d2362a0800} 
+int {\bfseries interest}
+\item 
+\Hypertarget{class_card_object_a2bd9e82db3537eb6a363e8ac0671e689}\label{class_card_object_a2bd9e82db3537eb6a363e8ac0671e689} 
+int {\bfseries funtionality}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for all card objects in the game. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_card_object_a9e15a416809c61aa0b576414b71d478e}\label{class_card_object_a9e15a416809c61aa0b576414b71d478e} 
+\index{CardObject@{CardObject}!Build@{Build}}
+\index{Build@{Build}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{Build()}{Build()}}
+{\footnotesize\ttfamily virtual bool Card\+Object.\+Build (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Builds the card. 
+
+\begin{DoxyReturn}{Returns}
+True if the card is built successfully, otherwise false.
+\end{DoxyReturn}
+\Hypertarget{class_card_object_a6abd0463c30ddd604c9c91ec1c3e2cb7}\label{class_card_object_a6abd0463c30ddd604c9c91ec1c3e2cb7} 
+\index{CardObject@{CardObject}!getIndex@{getIndex}}
+\index{getIndex@{getIndex}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{getIndex()}{getIndex()}}
+{\footnotesize\ttfamily int Card\+Object.\+get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the index of the card. 
+
+\begin{DoxyReturn}{Returns}
+The index of the card.
+\end{DoxyReturn}
+\Hypertarget{class_card_object_ab829cc4298af951349af8d544d6bb711}\label{class_card_object_ab829cc4298af951349af8d544d6bb711} 
+\index{CardObject@{CardObject}!IsCardSpecial@{IsCardSpecial}}
+\index{IsCardSpecial@{IsCardSpecial}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{IsCardSpecial()}{IsCardSpecial()}}
+{\footnotesize\ttfamily virtual bool Card\+Object.\+Is\+Card\+Special (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Checks if the card is special. 
+
+\begin{DoxyReturn}{Returns}
+True if the card is special, otherwise false.
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_base_card_a9a324bf85f4a0f34aa724a652e1a80f7}{Base\+Card}}, and \mbox{\hyperlink{class_specjal_card_ac51bc560e8881b6b46cb48dbe80b7dd5}{Specjal\+Card}}.
+
+\Hypertarget{class_card_object_a81d78320742d1b40f393b3ec52a5278b}\label{class_card_object_a81d78320742d1b40f393b3ec52a5278b} 
+\index{CardObject@{CardObject}!PowerUp@{PowerUp}}
+\index{PowerUp@{PowerUp}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{PowerUp()}{PowerUp()}}
+{\footnotesize\ttfamily virtual void Card\+Object.\+Power\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Powers up the card. 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_base_card_acbd6ac9b2ef6b64b1f538cb7d7a46d93}{Base\+Card}}, and \mbox{\hyperlink{class_specjal_card_a1b24d0073d972f31f914aa9e5c8ac08a}{Specjal\+Card}}.
+
+\Hypertarget{class_card_object_add668ab75dd617705f07d518a4c00e9d}\label{class_card_object_add668ab75dd617705f07d518a4c00e9d} 
+\index{CardObject@{CardObject}!SetCardValues@{SetCardValues}}
+\index{SetCardValues@{SetCardValues}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{SetCardValues()}{SetCardValues()}}
+{\footnotesize\ttfamily void Card\+Object.\+Set\+Card\+Values (\begin{DoxyParamCaption}\item[{Card}]{card\+File }\end{DoxyParamCaption})}
+
+
+
+Sets the values of the card based on a Card object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em card\+File} & The Card object containing the values.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_card_object_a667904d254389f66f90a5383a0fff585}\label{class_card_object_a667904d254389f66f90a5383a0fff585} 
+\index{CardObject@{CardObject}!setIndex@{setIndex}}
+\index{setIndex@{setIndex}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{setIndex()}{setIndex()}}
+{\footnotesize\ttfamily void Card\+Object.\+set\+Index (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Sets the index for the card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index to set.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_card_object_a4849c76c686e500f1febd35577b3f7d1}\label{class_card_object_a4849c76c686e500f1febd35577b3f7d1} 
+\index{CardObject@{CardObject}!startValue@{startValue}}
+\index{startValue@{startValue}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{startValue}{startValue}}
+{\footnotesize\ttfamily int Card\+Object.\+start\+Value}
+
+
+
+Retrieves the tuple containing the card\textquotesingle{}s values. 
+
+\begin{DoxyReturn}{Returns}
+A tuple containing the card\textquotesingle{}s values.
+\end{DoxyReturn}
+\Hypertarget{class_card_object_adabf1f770bddb1f7cd4aa9b888f6cf3a}\label{class_card_object_adabf1f770bddb1f7cd4aa9b888f6cf3a} 
+\index{CardObject@{CardObject}!updatedValue@{updatedValue}}
+\index{updatedValue@{updatedValue}!CardObject@{CardObject}}
+\doxysubsubsection{\texorpdfstring{updatedValue}{updatedValue}}
+{\footnotesize\ttfamily virtual int Card\+Object.\+updated\+Value}
+
+
+
+Updates the card values based on the provided tuple. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Tuple} & Tuple containing start values.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A tuple containing updated values.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Unity/projects/laby/\+PGU2023/\+PGU2023/\+Assets/\+Scripts/Card\+Object.\+cs\end{DoxyCompactItemize}

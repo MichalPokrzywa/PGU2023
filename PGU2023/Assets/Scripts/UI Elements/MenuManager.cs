@@ -5,18 +5,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages the menu functionality in the game.
+/// </summary>
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] TMP_InputField inputFieldName;
     [SerializeField] Button button;
     [SerializeField] DifficultyManagger difficultyManagger;
-    // Start is called before the first frame update
+
+    /// <summary>
+    /// Called before the first frame update.
+    /// </summary>
     void Start()
     {
         button.onClick.AddListener(SendValues);
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Sends the input field value and selected difficulty level to the Writer component.
+    /// </summary>
     void SendValues()
     {
         var scriptableObject = ScriptableObject.CreateInstance<MoveData>();

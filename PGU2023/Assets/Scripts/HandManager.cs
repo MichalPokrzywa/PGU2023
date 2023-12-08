@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Manages the player's hand of cards.
+/// </summary>
 public class HandManager : MonoBehaviour
 {
     private static HandManager _instance;
