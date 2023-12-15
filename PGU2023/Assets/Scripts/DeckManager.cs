@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Manages the deck of cards in the game.
+/// </summary>
 public class DeckManager : MonoBehaviour
 {
     private static DeckManager _instance;
@@ -23,11 +26,15 @@ public class DeckManager : MonoBehaviour
             _instance = this;
         }
     }
+
     void Start()
     {
         LoadCardsGameObjects();   
     }
 
+    /// <summary>
+    /// Loads the card game objects from a card collection.
+    /// </summary>
     void LoadCardsGameObjects()
     {
         CardsColection cardsColection = CardsColection.LoadCards("newcards");
@@ -40,6 +47,10 @@ public class DeckManager : MonoBehaviour
         //cardObjects = Utility.GetAtPath<GameObject>("Prefabs/CardsColection/");
     }
 
+    /// <summary>
+    /// Creates a new card game object based on the given card data.
+    /// </summary>
+    /// <param name="card">The card data.</param>
     void CreateCard(Card card)
     {
         GameObject newCard = Instantiate(cardPrefab);
@@ -60,6 +71,10 @@ public class DeckManager : MonoBehaviour
        
     }
 
+    /// <summary>
+    /// Returns a random card game object from the deck.
+    /// </summary>
+    /// <returns>A random card game object.</returns>
     public GameObject getRandom()
     {
         int index = Random.Range(0, cardObjects.Count);

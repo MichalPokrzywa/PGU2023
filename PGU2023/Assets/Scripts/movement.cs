@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+/// <summary>
+/// Controls the movement of the game object.
+/// </summary>
 public class movement : MonoBehaviour
 {
     public float speed = 0.01f;

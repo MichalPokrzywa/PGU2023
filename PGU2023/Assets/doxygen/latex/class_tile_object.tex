@@ -1,0 +1,140 @@
+\doxysection{Tile\+Object Class Reference}
+\hypertarget{class_tile_object}{}\label{class_tile_object}\index{TileObject@{TileObject}}
+
+
+Represents a tile object in the game.  
+
+
+Inheritance diagram for Tile\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_tile_object}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tile_object_a159efd271919b88e469ace7a4192968f}{Assign\+Row\+Column}} (int \mbox{\hyperlink{class_tile_object_ab821aea1458108e7b74328bea665e1ae}{row}}, int column)
+\begin{DoxyCompactList}\small\item\em Assigns the row and column indices to the tile. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tile_object_ace91ebfcd3b9b82c633d8dca5c2cbba6}{Update\+Value}} (\mbox{\hyperlink{class_card_object}{Card\+Object}} \mbox{\hyperlink{class_tile_object_a8b7e7c2a04e92d892f14429cdd04aca5}{card}})
+\begin{DoxyCompactList}\small\item\em Updates the value of the tile based on the given card. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tile_object_a37ee82ef6fed18ab29c17140728e5147}{Perform\+Special\+Action}} (\mbox{\hyperlink{class_tile_object}{Tile\+Object}} changed\+Tile)
+\begin{DoxyCompactList}\small\item\em Performs a special action on the tile based on the changed tile. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_a28f12d5b7890ae66a1a525b7b3edac26}\label{class_tile_object_a28f12d5b7890ae66a1a525b7b3edac26} 
+int int int int currrent\+Funtionality {\bfseries send\+Score} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_tile_object_a8b7e7c2a04e92d892f14429cdd04aca5}\label{class_tile_object_a8b7e7c2a04e92d892f14429cdd04aca5} 
+\mbox{\hyperlink{class_card_object}{Card\+Object}} {\bfseries card}
+\begin{DoxyCompactList}\small\item\em The card associated with the tile. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_a712e25b4daaef62839440fb2db71f13f}\label{class_tile_object_a712e25b4daaef62839440fb2db71f13f} 
+bool {\bfseries has\+Card} = false
+\begin{DoxyCompactList}\small\item\em Indicates whether the tile has a card or not. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_ab821aea1458108e7b74328bea665e1ae}\label{class_tile_object_ab821aea1458108e7b74328bea665e1ae} 
+int {\bfseries row}
+\begin{DoxyCompactList}\small\item\em The row index of the tile. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_af74c60de679752cb76a09c044973be76}\label{class_tile_object_af74c60de679752cb76a09c044973be76} 
+int {\bfseries col}
+\begin{DoxyCompactList}\small\item\em The column index of the tile. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_a6bf38d98700a79f6dad09c5713829d0a}\label{class_tile_object_a6bf38d98700a79f6dad09c5713829d0a} 
+int {\bfseries value}
+\begin{DoxyCompactList}\small\item\em The current value, cost, interest, and functionality of the tile. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_a827d261338b5eaec37ab8ec3166c3617}\label{class_tile_object_a827d261338b5eaec37ab8ec3166c3617} 
+int int {\bfseries cost}
+\item 
+\Hypertarget{class_tile_object_ad7dedaba2c5ab585ed2f585fe7b058f2}\label{class_tile_object_ad7dedaba2c5ab585ed2f585fe7b058f2} 
+int int int {\bfseries interest}
+\item 
+\Hypertarget{class_tile_object_a09aa950609895dde99b768d2c3e731d8}\label{class_tile_object_a09aa950609895dde99b768d2c3e731d8} 
+int int int int functionality {\bfseries current\+Value}
+\item 
+\Hypertarget{class_tile_object_a5ed5ce677de675dd9092971b87178483}\label{class_tile_object_a5ed5ce677de675dd9092971b87178483} 
+Nav\+Mesh\+Surface {\bfseries surface}
+\begin{DoxyCompactList}\small\item\em The Nav\+Mesh\+Surface component used for pathfinding. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_af2760d6003718e955d9f2f5f9cd8498e}\label{class_tile_object_af2760d6003718e955d9f2f5f9cd8498e} 
+Game\+Object {\bfseries person\+Prefab}
+\begin{DoxyCompactList}\small\item\em The prefab for the person object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_tile_object_a373a0298571652a66fa8ce5a208683a5}{current\+Value}}
+\begin{DoxyCompactList}\small\item\em Sends the current value, cost, interest, and functionality of the tile. \end{DoxyCompactList}\item 
+\Hypertarget{class_tile_object_acd1306ec508e0310b0b25e0f3243d56b}\label{class_tile_object_acd1306ec508e0310b0b25e0f3243d56b} 
+int int {\bfseries current\+Cost}
+\item 
+\Hypertarget{class_tile_object_a1395273aca44bae12f27e6843c1b988d}\label{class_tile_object_a1395273aca44bae12f27e6843c1b988d} 
+int int int {\bfseries current\+Interest}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a tile object in the game. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tile_object_a159efd271919b88e469ace7a4192968f}\label{class_tile_object_a159efd271919b88e469ace7a4192968f} 
+\index{TileObject@{TileObject}!AssignRowColumn@{AssignRowColumn}}
+\index{AssignRowColumn@{AssignRowColumn}!TileObject@{TileObject}}
+\doxysubsubsection{\texorpdfstring{AssignRowColumn()}{AssignRowColumn()}}
+{\footnotesize\ttfamily void Tile\+Object.\+Assign\+Row\+Column (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+
+
+Assigns the row and column indices to the tile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The row index.\\
+\hline
+{\em column} & The column index.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tile_object_a37ee82ef6fed18ab29c17140728e5147}\label{class_tile_object_a37ee82ef6fed18ab29c17140728e5147} 
+\index{TileObject@{TileObject}!PerformSpecialAction@{PerformSpecialAction}}
+\index{PerformSpecialAction@{PerformSpecialAction}!TileObject@{TileObject}}
+\doxysubsubsection{\texorpdfstring{PerformSpecialAction()}{PerformSpecialAction()}}
+{\footnotesize\ttfamily void Tile\+Object.\+Perform\+Special\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tile_object}{Tile\+Object}}}]{changed\+Tile }\end{DoxyParamCaption})}
+
+
+
+Performs a special action on the tile based on the changed tile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em changed\+Tile} & The changed tile object.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tile_object_ace91ebfcd3b9b82c633d8dca5c2cbba6}\label{class_tile_object_ace91ebfcd3b9b82c633d8dca5c2cbba6} 
+\index{TileObject@{TileObject}!UpdateValue@{UpdateValue}}
+\index{UpdateValue@{UpdateValue}!TileObject@{TileObject}}
+\doxysubsubsection{\texorpdfstring{UpdateValue()}{UpdateValue()}}
+{\footnotesize\ttfamily void Tile\+Object.\+Update\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_card_object}{Card\+Object}}}]{card }\end{DoxyParamCaption})}
+
+
+
+Updates the value of the tile based on the given card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em card} & The card object.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_tile_object_a373a0298571652a66fa8ce5a208683a5}\label{class_tile_object_a373a0298571652a66fa8ce5a208683a5} 
+\index{TileObject@{TileObject}!currentValue@{currentValue}}
+\index{currentValue@{currentValue}!TileObject@{TileObject}}
+\doxysubsubsection{\texorpdfstring{currentValue}{currentValue}}
+{\footnotesize\ttfamily int Tile\+Object.\+current\+Value}
+
+
+
+Sends the current value, cost, interest, and functionality of the tile. 
+
+\begin{DoxyReturn}{Returns}
+A tuple containing the current value, cost, interest, and functionality.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Unity/projects/laby/\+PGU2023/\+PGU2023/\+Assets/\+Scripts/Tile\+Object.\+cs\end{DoxyCompactItemize}

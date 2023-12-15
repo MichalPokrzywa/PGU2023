@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Controls the swapping of active cameras in the game.
+/// </summary>
 public class ChangeCamera : MonoBehaviour
 {
-
     public GameObject camera1;
     public GameObject camera2;
     public GameObject bomb;
@@ -17,7 +20,9 @@ public class ChangeCamera : MonoBehaviour
         bomb.SetActive(true);
     }
 
-    // Call this method to swap the active cameras
+    /// <summary>
+    /// Swaps the active cameras.
+    /// </summary>
     public void SwapCameras()
     {
         GameManager.instance.isInWalkMode = !GameManager.instance.isInWalkMode;

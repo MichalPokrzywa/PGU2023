@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Enum defining different card symbols.
+/// </summary>
 public enum Symbol
 {
     Club,
@@ -10,12 +13,16 @@ public enum Symbol
     Hearts,
     Spades
 }
+
+/// <summary>
+/// Base class for all card objects in the game.
+/// </summary>
 public class CardObject : MonoBehaviour
 {
     [SerializeField] protected Symbol symbol;
     [SerializeField] protected int value;
-                     
-    //parameters     
+
+    // Parameters     
     [SerializeField] protected int cost;
     [SerializeField] protected int interest;
     [SerializeField] protected int funtionality;
@@ -42,7 +49,7 @@ public class CardObject : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        if(GameManager.instance.isInWalkMode) return;
+        if (GameManager.instance.isInWalkMode) return;
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         float enter;
         isDragged = true;
@@ -66,14 +73,28 @@ public class CardObject : MonoBehaviour
         isDragged = false;
     }
 
+    /// <summary>
+    /// Checks if the card is special.
+    /// </summary>
+    /// <returns>True if the card is special, otherwise false.</returns>
     public virtual bool IsCardSpecial()
     {
         return false;
     }
+
+    /// <summary>
+    /// Retrieves the tuple containing the card's values.
+    /// </summary>
+    /// <returns>A tuple containing the card's values.</returns>
     public (int startValue, int startCost, int startInterest, int startFuntionality) GetValueTuple()
     {
         return (value, cost, interest, funtionality);
     }
+
+    /// <summary>
+    /// Sets the values of the card based on a Card object.
+    /// </summary>
+    /// <param name="cardFile">The Card object containing the values.</param>
     public void SetCardValues(Card cardFile)
     {
         symbol = Enum.Parse<Symbol>(cardFile.Symbol);
@@ -83,19 +104,33 @@ public class CardObject : MonoBehaviour
         funtionality = cardFile.Functionality;
         gameObjectModel = Resources.Load<GameObject>(cardFile.GameObjectPath);
     }
+
+    /// <summary>
+    /// Powers up the card.
+    /// </summary>
     public virtual void PowerUp()
     {
-        //umiejka karty
+        // Implementation details for powering up the card
     }
 
+    /// <summary>
+    /// Updates the card values based on the provided tuple.
+    /// </summary>
+    /// <param name="starTuple">Tuple containing start values.</param>
+    /// <returns>A tuple containing updated values.</returns>
     public virtual (int updatedValue, int updatedCost, int updatedInterest, int updatedFuntionality) UpdateValue((int startValue, int startCost, int startInterest, int startFuntionality) starTuple)
     {
         return (0, 0, 0, 0);
     }
+
+    /// <summary>
+    /// Builds the card.
+    /// </summary>
+    /// <returns>True if the card is built successfully, otherwise false.</returns>
     public virtual bool Build()
     {
-        if (buildOnce) 
-        { 
+        if (buildOnce)
+        {
             this.gameObject.GetComponent<MeshRenderer>().enabled = false;
             Instantiate(gameObjectModel, this.gameObject.transform.parent);
             buildOnce = false;
@@ -104,15 +139,21 @@ public class CardObject : MonoBehaviour
         return false;
     }
 
+    /// <summary>
+    /// Sets the index for the card.
+    /// </summary>
+    /// <param name="index">The index to set.</param>
     public void setIndex(int index)
     {
         handIndex = index;
     }
 
+    /// <summary>
+    /// Gets the index of the card.
+    /// </summary>
+    /// <returns>The index of the card.</returns>
     public int getIndex()
     {
         return handIndex;
     }
-
-
 }

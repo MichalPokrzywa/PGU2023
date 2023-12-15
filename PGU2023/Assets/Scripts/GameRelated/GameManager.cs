@@ -4,20 +4,20 @@ using System.Xml.Serialization;
 using Unity.AI.Navigation;
 using UnityEngine;
 
+/// <summary>
+/// Manages the game's overall progress and scores.
+/// </summary>
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     public static GameManager instance => _instance;
 
-    public int totalValue = 0;
+    public int totalValue = 0; // Total value accumulated in the game
+    public int totalCost = 0; // Total cost incurred in the game
+    public int totalInterest = 0; // Total interest gained in the game
+    public int totalFunctionality = 0; // Total functionality achieved in the game
 
-    public int totalCost = 0;
-
-    public int totalInterest = 0;
-
-    public int totalFunctionality = 0;
-
-    public bool isInWalkMode = false;
+    public bool isInWalkMode = false; // Indicates whether the game is in "walk mode"
 
     void Awake()
     {
@@ -31,8 +31,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Updates the overall scores based on the current state of the game.
+    /// </summary>
     public void UpdateScore()
     {
+        // Reset the scores
         totalValue = 0;
         totalCost = 0;
         totalInterest = 0;
@@ -47,6 +51,8 @@ public class GameManager : MonoBehaviour
             totalInterest += tile.currentValue.interest;
             totalFunctionality += tile.currentValue.functionality;
         }
+
+        // Update the UI with the new scores
         GameCanvas.instance.UpdateStats(totalValue, totalCost, totalInterest, totalFunctionality);
     }
 }

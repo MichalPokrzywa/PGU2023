@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Manages the cameras in the scene and allows switching between them.
+/// </summary>
 public class CameraChanger : MonoBehaviour
 {
     List<GameObject> cameraObjects;

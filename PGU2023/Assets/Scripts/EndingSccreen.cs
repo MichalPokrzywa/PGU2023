@@ -5,6 +5,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Represents the ending screen of the game.
+/// </summary>
 public class EndingSccreen : MonoBehaviour
 {
     [SerializeField] TMP_Text cost;

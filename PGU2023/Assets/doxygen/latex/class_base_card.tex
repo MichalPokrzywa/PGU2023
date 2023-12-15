@@ -1,0 +1,128 @@
+\doxysection{Base\+Card Class Reference}
+\hypertarget{class_base_card}{}\label{class_base_card}\index{BaseCard@{BaseCard}}
+
+
+Represents a base card object.  
+
+
+Inheritance diagram for Base\+Card\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_base_card}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_base_card_a78118dd2517cd6770cca9aed4a1817d2}{override}} void \mbox{\hyperlink{class_base_card_acbd6ac9b2ef6b64b1f538cb7d7a46d93}{Power\+Up}} ()
+\begin{DoxyCompactList}\small\item\em Powers up the base card. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_base_card_a78118dd2517cd6770cca9aed4a1817d2}{override}} (int \mbox{\hyperlink{class_card_object_adabf1f770bddb1f7cd4aa9b888f6cf3a}{updated\+Value}}, int updated\+Cost, int updated\+Interest, int updated\+Funtionality) Update\+Value((int \mbox{\hyperlink{class_card_object_a4849c76c686e500f1febd35577b3f7d1}{start\+Value}}
+\begin{DoxyCompactList}\small\item\em Updates the value of the base card. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_base_card_a78118dd2517cd6770cca9aed4a1817d2}{override}} bool \mbox{\hyperlink{class_base_card_a9a324bf85f4a0f34aa724a652e1a80f7}{Is\+Card\+Special}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the base card is special. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_card_object}{Card\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+int int int int start\+Funtionality {\bfseries Get\+Value\+Tuple} ()
+\item 
+void \mbox{\hyperlink{class_card_object_add668ab75dd617705f07d518a4c00e9d}{Set\+Card\+Values}} (Card card\+File)
+\begin{DoxyCompactList}\small\item\em Sets the values of the card based on a Card object. \end{DoxyCompactList}\item 
+virtual int int int int updated\+Funtionality {\bfseries Update\+Value} ((int \mbox{\hyperlink{class_card_object_a4849c76c686e500f1febd35577b3f7d1}{start\+Value}}, int start\+Cost, int start\+Interest, int start\+Funtionality) star\+Tuple)
+\item 
+virtual bool \mbox{\hyperlink{class_card_object_a9e15a416809c61aa0b576414b71d478e}{Build}} ()
+\begin{DoxyCompactList}\small\item\em Builds the card. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_card_object_a667904d254389f66f90a5383a0fff585}{set\+Index}} (int index)
+\begin{DoxyCompactList}\small\item\em Sets the index for the card. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_card_object_a6abd0463c30ddd604c9c91ec1c3e2cb7}{get\+Index}} ()
+\begin{DoxyCompactList}\small\item\em Gets the index of the card. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{class_card_object}{Card\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries is\+Dragged} = false
+\item 
+int \mbox{\hyperlink{class_card_object_a4849c76c686e500f1febd35577b3f7d1}{start\+Value}}
+\begin{DoxyCompactList}\small\item\em Retrieves the tuple containing the card\textquotesingle{}s values. \end{DoxyCompactList}\item 
+int int {\bfseries start\+Cost}
+\item 
+int int int {\bfseries start\+Interest}
+\item 
+virtual int \mbox{\hyperlink{class_card_object_adabf1f770bddb1f7cd4aa9b888f6cf3a}{updated\+Value}}
+\begin{DoxyCompactList}\small\item\em Updates the card values based on the provided tuple. \end{DoxyCompactList}\item 
+virtual int int {\bfseries updated\+Cost}
+\item 
+virtual int int int {\bfseries updated\+Interest}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_card_object}{Card\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+Symbol {\bfseries symbol}
+\item 
+int {\bfseries value}
+\item 
+int {\bfseries cost}
+\item 
+int {\bfseries interest}
+\item 
+int {\bfseries funtionality}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a base card object. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_base_card_a9a324bf85f4a0f34aa724a652e1a80f7}\label{class_base_card_a9a324bf85f4a0f34aa724a652e1a80f7} 
+\index{BaseCard@{BaseCard}!IsCardSpecial@{IsCardSpecial}}
+\index{IsCardSpecial@{IsCardSpecial}!BaseCard@{BaseCard}}
+\doxysubsubsection{\texorpdfstring{IsCardSpecial()}{IsCardSpecial()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_base_card_a78118dd2517cd6770cca9aed4a1817d2}{override}} bool Base\+Card.\+Is\+Card\+Special (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Checks if the base card is special. 
+
+\begin{DoxyReturn}{Returns}
+True if the card is special, otherwise false.
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_card_object_ab829cc4298af951349af8d544d6bb711}{Card\+Object}}.
+
+\Hypertarget{class_base_card_a78118dd2517cd6770cca9aed4a1817d2}\label{class_base_card_a78118dd2517cd6770cca9aed4a1817d2} 
+\index{BaseCard@{BaseCard}!override@{override}}
+\index{override@{override}!BaseCard@{BaseCard}}
+\doxysubsubsection{\texorpdfstring{override()}{override()}}
+{\footnotesize\ttfamily Base\+Card.\+override (\begin{DoxyParamCaption}\item[{int}]{updated\+Value,  }\item[{int}]{updated\+Cost,  }\item[{int}]{updated\+Interest,  }\item[{int}]{updated\+Funtionality }\end{DoxyParamCaption})}
+
+
+
+Updates the value of the base card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Tuple} & Tuple containing start values.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A tuple containing updated values.
+\end{DoxyReturn}
+\Hypertarget{class_base_card_acbd6ac9b2ef6b64b1f538cb7d7a46d93}\label{class_base_card_acbd6ac9b2ef6b64b1f538cb7d7a46d93} 
+\index{BaseCard@{BaseCard}!PowerUp@{PowerUp}}
+\index{PowerUp@{PowerUp}!BaseCard@{BaseCard}}
+\doxysubsubsection{\texorpdfstring{PowerUp()}{PowerUp()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_base_card_a78118dd2517cd6770cca9aed4a1817d2}{override}} void Base\+Card.\+Power\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Powers up the base card. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_card_object_a81d78320742d1b40f393b3ec52a5278b}{Card\+Object}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Unity/projects/laby/\+PGU2023/\+PGU2023/\+Assets/\+Scripts/Base\+Card.\+cs\end{DoxyCompactItemize}

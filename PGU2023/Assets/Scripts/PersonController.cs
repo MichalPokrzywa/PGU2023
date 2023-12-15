@@ -4,6 +4,9 @@ using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.AI;
 
+/// <summary>
+/// Controls the movement of a person in the game using Unity's NavMesh system.
+/// </summary>
 public class PersonController : MonoBehaviour
 {
     private NavMeshAgent agent;
@@ -15,7 +18,7 @@ public class PersonController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         navMeshSurface = FindObjectOfType<NavMeshSurface>();
-        maxDistance = Mathf.Max( navMeshSurface.size.x / 2, navMeshSurface.size.z /2);
+        maxDistance = Mathf.Max(navMeshSurface.size.x / 2, navMeshSurface.size.z / 2);
         center = navMeshSurface.center;
 
         if (navMeshSurface == null)
@@ -24,6 +27,12 @@ public class PersonController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Gets a random point on the NavMesh surface within a specified range.
+    /// </summary>
+    /// <param name="center">The center position of the NavMesh surface.</param>
+    /// <param name="maxDistance">The maximum distance from the center to search for a random point.</param>
+    /// <returns>A random point on the NavMesh surface.</returns>
     public static Vector3 GetRandomPoint(Vector3 center, float maxDistance)
     {
         // Get Random Point inside Sphere which position is center, radius is maxDistance
@@ -41,7 +50,6 @@ public class PersonController : MonoBehaviour
     {
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
         {
-            
             agent.SetDestination(GetRandomPoint(center, maxDistance));
         }
     }

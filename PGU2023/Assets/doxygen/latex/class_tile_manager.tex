@@ -1,0 +1,92 @@
+\doxysection{Tile\+Manager Class Reference}
+\hypertarget{class_tile_manager}{}\label{class_tile_manager}\index{TileManager@{TileManager}}
+
+
+Manages the tiles in the game.  
+
+
+Inheritance diagram for Tile\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_tile_manager}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tile_manager_a622daf6aac5407c1a177a5b2c1ce9ce7}{Add\+Tile}} (\mbox{\hyperlink{class_tile_object}{Tile\+Object}} tile)
+\begin{DoxyCompactList}\small\item\em Adds a tile to the list of all tiles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tile_manager_a704d93ef2e95bd4131ba4abf1c78d483}{Inform\+Tiles}} (\mbox{\hyperlink{class_tile_object}{Tile\+Object}} tile)
+\begin{DoxyCompactList}\small\item\em Informs neighboring tiles about a specific tile. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tile_manager_ac213f54d95d5c36190c2c86bb490fd14}{get\+Rows\+Columns}} (int rows, int col)
+\begin{DoxyCompactList}\small\item\em Sets the number of rows and columns in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_tile_manager_a2745679b84434f60aa715692bf6077b4}\label{class_tile_manager_a2745679b84434f60aa715692bf6077b4} 
+List$<$ \mbox{\hyperlink{class_tile_object}{Tile\+Object}} $>$ {\bfseries all\+Tiles} = new List$<$\mbox{\hyperlink{class_tile_object}{Tile\+Object}}$>$()
+\begin{DoxyCompactList}\small\item\em List of all the tiles in the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_tile_manager_a7d0c3ad14998d5bfef7e0ce4519b628f}\label{class_tile_manager_a7d0c3ad14998d5bfef7e0ce4519b628f} 
+static \mbox{\hyperlink{class_tile_manager}{Tile\+Manager}} {\bfseries instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages the tiles in the game. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tile_manager_a622daf6aac5407c1a177a5b2c1ce9ce7}\label{class_tile_manager_a622daf6aac5407c1a177a5b2c1ce9ce7} 
+\index{TileManager@{TileManager}!AddTile@{AddTile}}
+\index{AddTile@{AddTile}!TileManager@{TileManager}}
+\doxysubsubsection{\texorpdfstring{AddTile()}{AddTile()}}
+{\footnotesize\ttfamily void Tile\+Manager.\+Add\+Tile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tile_object}{Tile\+Object}}}]{tile }\end{DoxyParamCaption})}
+
+
+
+Adds a tile to the list of all tiles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tile} & The tile to add.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tile_manager_ac213f54d95d5c36190c2c86bb490fd14}\label{class_tile_manager_ac213f54d95d5c36190c2c86bb490fd14} 
+\index{TileManager@{TileManager}!getRowsColumns@{getRowsColumns}}
+\index{getRowsColumns@{getRowsColumns}!TileManager@{TileManager}}
+\doxysubsubsection{\texorpdfstring{getRowsColumns()}{getRowsColumns()}}
+{\footnotesize\ttfamily void Tile\+Manager.\+get\+Rows\+Columns (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{col }\end{DoxyParamCaption})}
+
+
+
+Sets the number of rows and columns in the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & The number of rows.\\
+\hline
+{\em col} & The number of columns.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tile_manager_a704d93ef2e95bd4131ba4abf1c78d483}\label{class_tile_manager_a704d93ef2e95bd4131ba4abf1c78d483} 
+\index{TileManager@{TileManager}!InformTiles@{InformTiles}}
+\index{InformTiles@{InformTiles}!TileManager@{TileManager}}
+\doxysubsubsection{\texorpdfstring{InformTiles()}{InformTiles()}}
+{\footnotesize\ttfamily void Tile\+Manager.\+Inform\+Tiles (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_tile_object}{Tile\+Object}}}]{tile }\end{DoxyParamCaption})}
+
+
+
+Informs neighboring tiles about a specific tile. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tile} & The tile to inform neighboring tiles about.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Unity/projects/laby/\+PGU2023/\+PGU2023/\+Assets/\+Scripts/Tile\+Manager.\+cs\end{DoxyCompactItemize}
