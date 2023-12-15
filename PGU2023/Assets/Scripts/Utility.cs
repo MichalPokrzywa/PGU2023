@@ -1,7 +1,7 @@
 using System.Collections;
 using System.IO;
 using UnityEngine;
-
+/*
 public class Utility
 {
     public static T[] GetAtPath<T>(string path)
@@ -29,3 +29,4 @@ public class Utility
         return result;
     }
 }
+*/
