@@ -13,10 +13,13 @@ public class TileObject : MonoBehaviour
     public (int value, int cost, int interest, int functionality) currentValue;
     public NavMeshSurface surface;
     public GameObject personPrefab;
+    public bool premium;
+    public Symbol symbol;
 
     private void Start()
     {
         surface = GameObject.Find("NavMesh").GetComponent<NavMeshSurface>();
+        premium = false;
 
     }
     bool ShowBuilding()
@@ -78,5 +81,12 @@ public class TileObject : MonoBehaviour
     public (int currentValue, int currentCost, int currentInterest, int currrentFuntionality) sendScore()
     {
         return currentValue;
+    }
+
+    public void setSpecjal(Symbol symbol)
+    {
+        premium = true;
+        gameObject.GetComponent<MeshRenderer>().material.color = Color.yellow;
+        this.symbol = symbol;
     }
 }
