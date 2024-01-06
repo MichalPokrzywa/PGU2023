@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5725860862736568287}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.47271195, y: 0.83820117, z: 0.5955583}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -117,5 +117,3 @@ MonoBehaviour:
   col: 0
   surface: {fileID: 3925109718099092000, guid: 098c6f24a6744744ca0f34a0ad5e4373, type: 3}
   personPrefab: {fileID: 3810972898581023811, guid: a65d76445ee017a42a1fb26efbe6d8aa, type: 3}
-  premium: 0
-  symbol: 0
