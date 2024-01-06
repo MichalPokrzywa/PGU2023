@@ -5,9 +5,9 @@ using UnityEngine;
 
 public enum Symbol
 {
-    Club,
-    Diamond,
     Hearts,
+    Diamond,
+    Club,
     Spades
 }
 public class CardObject : MonoBehaviour
