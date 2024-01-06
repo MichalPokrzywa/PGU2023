@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefab: {fileID: 5725860862736568287, guid: 1cb82540aa2d1bf41907bd219d7875ba, type: 3}
-  n: 2
-  m: 2
+  n: 4
+  m: 4
   tileSize: 10
+  symbol: 2

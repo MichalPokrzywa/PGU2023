@@ -5326,6 +5326,7 @@ MonoBehaviour:
   totalInterest: 0
   totalFunctionality: 0
   isInWalkMode: 0
+  characterType: 2
 --- !u!114 &157375418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5555,6 +5556,8 @@ MonoBehaviour:
   col: 0
   surface: {fileID: 579873631}
   personPrefab: {fileID: 0}
+  premium: 0
+  symbol: 0
 --- !u!64 &281950350
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6214,11 +6217,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 1
-  value: 7
+  cardValue: 0
   cost: 3
-  interest: 1
-  funtionality: 2
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1527663703552340, guid: 3fed7be6c19d6434e8c2a56a20409d0b, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &512902942
 Rigidbody:
@@ -6348,11 +6356,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 2
-  value: 10
+  cardValue: 0
   cost: 5
-  interest: 2
-  funtionality: 1
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1648905886851508, guid: a4a521900c27d504aa19df480329f342, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &557763393
 Rigidbody:
@@ -6822,6 +6835,8 @@ MonoBehaviour:
   col: 1
   surface: {fileID: 579873631}
   personPrefab: {fileID: 0}
+  premium: 0
+  symbol: 0
 --- !u!64 &697612757
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6920,11 +6935,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 2
-  value: 10
+  cardValue: 0
   cost: 5
-  interest: 2
-  funtionality: 1
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1648905886851508, guid: a4a521900c27d504aa19df480329f342, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &724816129
 Rigidbody:
@@ -7302,6 +7322,8 @@ MonoBehaviour:
   col: 1
   surface: {fileID: 579873631}
   personPrefab: {fileID: 0}
+  premium: 0
+  symbol: 0
 --- !u!64 &938654088
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8129,11 +8151,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 1
-  value: 7
+  cardValue: 0
   cost: 3
-  interest: 1
-  funtionality: 2
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1527663703552340, guid: 3fed7be6c19d6434e8c2a56a20409d0b, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &1154139547
 Rigidbody:
@@ -9278,6 +9305,8 @@ MonoBehaviour:
   col: 0
   surface: {fileID: 579873631}
   personPrefab: {fileID: 0}
+  premium: 0
+  symbol: 0
 --- !u!64 &1828798059
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9485,11 +9514,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 2
-  value: 10
+  cardValue: 0
   cost: 5
-  interest: 2
-  funtionality: 1
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1648905886851508, guid: a4a521900c27d504aa19df480329f342, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &1859796729
 Rigidbody:
@@ -9619,11 +9653,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 1
-  value: 7
+  cardValue: 0
   cost: 3
-  interest: 1
-  funtionality: 2
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1527663703552340, guid: 3fed7be6c19d6434e8c2a56a20409d0b, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &2015418698
 Rigidbody:
@@ -9743,11 +9782,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 2
-  value: 10
+  cardValue: 0
   cost: 5
-  interest: 2
-  funtionality: 1
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1648905886851508, guid: a4a521900c27d504aa19df480329f342, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &2036023169
 Rigidbody:
@@ -10253,11 +10297,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   symbol: 1
-  value: 7
+  cardValue: 0
   cost: 3
-  interest: 1
-  funtionality: 2
+  intensityDev: 0
+  bioSurface: 0
+  areaSurface: 0
+  apartments: 0
+  averageFloors: 0
+  tree: 0
   gameObjectModel: {fileID: 1527663703552340, guid: 3fed7be6c19d6434e8c2a56a20409d0b, type: 3}
+  cardMaterial: {fileID: 0}
   isDragged: 0
 --- !u!54 &2146812430
 Rigidbody:
