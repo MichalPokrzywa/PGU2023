@@ -4,8 +4,11 @@ using System.Xml.Serialization;
 using Unity.AI.Navigation;
 using UnityEngine;
 
+
+
 public class GameManager : MonoBehaviour
 {
+
     private static GameManager _instance;
     public static GameManager instance => _instance;
 
@@ -19,6 +22,8 @@ public class GameManager : MonoBehaviour
 
     public bool isInWalkMode = false;
 
+    public Symbol characterType = Symbol.Club;
+
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -29,6 +34,9 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
+        characterType = (Symbol)PlayerPrefs.GetInt("characterType");
+        Debug.Log(characterType);
+
     }
 
     public void UpdateScore()
