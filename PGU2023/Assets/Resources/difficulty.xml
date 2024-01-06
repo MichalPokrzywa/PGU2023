@@ -3,13 +3,13 @@
 		<level Name="Easy">
 			<Bombs>3</Bombs>
 			<min>
-				<Value>0</Value>
+				<Cost>0</Cost>
 				<Cost>0</Cost>
 				<Interest>0</Interest>
 				<Functionality>0</Functionality>
 			</min>
 			<max>
-				<Value>0</Value>
+				<Cost>0</Cost>
 				<Cost>0</Cost>
 				<Interest>0</Interest>
 				<Functionality>0</Functionality>
@@ -20,13 +20,13 @@
 		<level Name="Normal">
 			<Bombs>2</Bombs>
 			<min>
-				<Value>10</Value>
+				<Cost>10</Cost>
 				<Cost>10</Cost>
 				<Interest>10</Interest>
 				<Functionality>10</Functionality>
 			</min>
 			<max>
-				<Value>0</Value>
+				<Cost>0</Cost>
 				<Cost>0</Cost>
 				<Interest>0</Interest>
 				<Functionality>0</Functionality>

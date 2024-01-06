@@ -27,7 +27,7 @@
 			<TreeCount>14</TreeCount>
 			<Cost>77</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart02_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_3">
@@ -41,7 +41,7 @@
 			<TreeCount>14</TreeCount>
 			<Cost>77</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart03_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_4">
@@ -55,7 +55,7 @@
 			<TreeCount>13</TreeCount>
 			<Cost>77</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart04_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_5">
@@ -69,7 +69,7 @@
 			<TreeCount>14</TreeCount>
 			<Cost>79</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart05_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_6">
@@ -83,7 +83,7 @@
 			<TreeCount>12</TreeCount>
 			<Cost>78</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart06_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_7">
@@ -97,7 +97,7 @@
 			<TreeCount>13</TreeCount>
 			<Cost>82</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart07_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_8">
@@ -111,7 +111,7 @@
 			<TreeCount>13</TreeCount>
 			<Cost>82</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart08_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_9">
@@ -125,7 +125,7 @@
 			<TreeCount>16</TreeCount>
 			<Cost>84</Cost>
 			<GameObjectPath> </GameObjectPath>
-			<MaterialPath> </MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart09_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 		<Card Name="Hearts_10">
