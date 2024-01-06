@@ -12,14 +12,18 @@ public enum Symbol
 }
 public class CardObject : MonoBehaviour
 {
-    [SerializeField] protected Symbol symbol;
-    [SerializeField] protected int value;
-                     
     //parameters     
+    [SerializeField] protected Symbol symbol;
+    [SerializeField] protected int cardValue;
     [SerializeField] protected int cost;
-    [SerializeField] protected int interest;
-    [SerializeField] protected int funtionality;
+    [SerializeField] protected float intensityDev;
+    [SerializeField] protected float bioSurface;
+    [SerializeField] protected float areaSurface;
+    [SerializeField] protected int apartments;
+    [SerializeField] protected int averageFloors;
+    [SerializeField] protected int tree;
     [SerializeField] GameObject gameObjectModel;
+    [SerializeField] Material cardMaterial;
 
     public bool isDragged = false;
 
@@ -72,16 +76,22 @@ public class CardObject : MonoBehaviour
     }
     public (int startValue, int startCost, int startInterest, int startFuntionality) GetValueTuple()
     {
-        return (value, cost, interest, funtionality);
+        return (cost, apartments, averageFloors, tree);
     }
     public void SetCardValues(Card cardFile)
     {
         symbol = Enum.Parse<Symbol>(cardFile.Symbol);
-        value = cardFile.Value;
+        cardValue = cardFile.Value;
         cost = cardFile.Cost;
-        interest = cardFile.Interest;
-        funtionality = cardFile.Functionality;
+        apartments = cardFile.NumberOfApartments;
+        averageFloors = cardFile.AverageNumberOfFloors;
+        tree = cardFile.TreeCount;
+        intensityDev = cardFile.DevelopmentIntensity;
+        bioSurface = cardFile.BiodegradableSurfacePercentage;
+        areaSurface = cardFile.SurfaceAreaPercentage;
         gameObjectModel = Resources.Load<GameObject>(cardFile.GameObjectPath);
+        cardMaterial = Resources.Load<Material>(cardFile.MaterialPath);
+        this.GetComponent<MeshRenderer>().material = cardMaterial;
     }
     public virtual void PowerUp()
     {

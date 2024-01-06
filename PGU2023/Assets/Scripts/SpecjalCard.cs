@@ -7,8 +7,8 @@ public class SpecjalCard : CardObject
     // Start is called before the first frame update
     public override void PowerUp()
     {
-        interest += cost / 10;
-        funtionality += cost / 10;
+        averageFloors += apartments / 10;
+        tree += apartments / 10;
     }
     public override (int updatedValue, int updatedCost, int updatedInterest, int updatedFuntionality) UpdateValue((int startValue, int startCost, int startInterest, int startFuntionality) starTuple)
     {

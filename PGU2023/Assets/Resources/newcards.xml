@@ -1,23 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CardsColection>
 	<Cards>
-		<Card Name="Card1">
-			<Symbol>Hearts</Symbol>
-			<Value>10</Value>
-			<Cost>5</Cost>
-			<Interest>2</Interest>
-			<Functionality>1</Functionality>
-			<GameObjectPath>Models/House1</GameObjectPath>
-			<IsSpecial>false</IsSpecial>
-		</Card>
-		<Card Name="Card2">
+
+		<Card Name="Diamond_7">
 			<Symbol>Diamond</Symbol>
 			<Value>7</Value>
-			<Cost>3</Cost>
-			<Interest>1</Interest>
-			<Functionality>2</Functionality>
+			<DevelopmentIntensity>0.29</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.11</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>28</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.49</BiodegradableSurfacePercentage>
+			<TreeCount>12</TreeCount>
+			<Cost>89</Cost>
 			<GameObjectPath>Models/House2</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond07_00</MaterialPath>
 			<IsSpecial>true</IsSpecial>
+		</Card>
+		<Card Name="Hearts_2">
+			<Symbol>Hearts</Symbol>
+			<Value>2</Value>
+			<DevelopmentIntensity>0.02</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.01</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>4</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.59</BiodegradableSurfacePercentage>
+			<TreeCount>14</TreeCount>
+			<Cost>77</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_3">
+			<Symbol>Hearts</Symbol>
+			<Value>3</Value>
+			<DevelopmentIntensity>0.04</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>6</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.57</BiodegradableSurfacePercentage>
+			<TreeCount>14</TreeCount>
+			<Cost>77</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_4">
+			<Symbol>Hearts</Symbol>
+			<Value>4</Value>
+			<DevelopmentIntensity>0.05</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>8</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.56</BiodegradableSurfacePercentage>
+			<TreeCount>13</TreeCount>
+			<Cost>77</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_5">
+			<Symbol>Hearts</Symbol>
+			<Value>5</Value>
+			<DevelopmentIntensity>0.05</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.03</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>10</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.55</BiodegradableSurfacePercentage>
+			<TreeCount>14</TreeCount>
+			<Cost>79</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_6">
+			<Symbol>Hearts</Symbol>
+			<Value>6</Value>
+			<DevelopmentIntensity>0.07</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>12</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.54</BiodegradableSurfacePercentage>
+			<TreeCount>12</TreeCount>
+			<Cost>78</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_7">
+			<Symbol>Hearts</Symbol>
+			<Value>7</Value>
+			<DevelopmentIntensity>0.08</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>14</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.55</BiodegradableSurfacePercentage>
+			<TreeCount>13</TreeCount>
+			<Cost>82</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_8">
+			<Symbol>Hearts</Symbol>
+			<Value>8</Value>
+			<DevelopmentIntensity>0.09</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>16</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.53</BiodegradableSurfacePercentage>
+			<TreeCount>13</TreeCount>
+			<Cost>82</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_9">
+			<Symbol>Hearts</Symbol>
+			<Value>9</Value>
+			<DevelopmentIntensity>0.11</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>18</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
+			<TreeCount>16</TreeCount>
+			<Cost>84</Cost>
+			<GameObjectPath> </GameObjectPath>
+			<MaterialPath> </MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_10">
+			<Symbol>Hearts</Symbol>
+			<Value>10</Value>
+			<DevelopmentIntensity>0.18</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>30</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
+			<TreeCount>14</TreeCount>
+			<Cost>94</Cost>
+			<GameObjectPath>Models/House1</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart10_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_W">
+			<Symbol>Hearts</Symbol>
+			<Value>11</Value>
+			<DevelopmentIntensity>0.42</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.09</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>8</AverageNumberOfFloors>
+			<NumberOfApartments>56</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.45</BiodegradableSurfacePercentage>
+			<TreeCount>30</TreeCount>
+			<Cost>131</Cost>
+			<GameObjectPath>Models/House3</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart11_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_D">
+			<Symbol>Hearts</Symbol>
+			<Value>12</Value>
+			<DevelopmentIntensity>0.52</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.14</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>11</AverageNumberOfFloors>
+			<NumberOfApartments>72</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.44</BiodegradableSurfacePercentage>
+			<TreeCount>32</TreeCount>
+			<Cost>148</Cost>
+			<GameObjectPath>Models/House4</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart12_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_K">
+			<Symbol>Hearts</Symbol>
+			<Value>13</Value>
+			<DevelopmentIntensity>0.86</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.20</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>4</AverageNumberOfFloors>
+			<NumberOfApartments>146</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.36</BiodegradableSurfacePercentage>
+			<TreeCount>22</TreeCount>
+			<Cost>204</Cost>
+			<GameObjectPath>Models/House5</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart13_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Hearts_A">
+			<Symbol>Hearts</Symbol>
+			<Value>14</Value>
+			<DevelopmentIntensity>1.17</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.21</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>6</AverageNumberOfFloors>
+			<NumberOfApartments>190</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.28</BiodegradableSurfacePercentage>
+			<TreeCount>15</TreeCount>
+			<Cost>233</Cost>
+			<GameObjectPath>Models/House6</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart14_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
 		</Card>
 	</Cards>
 </CardsColection>
