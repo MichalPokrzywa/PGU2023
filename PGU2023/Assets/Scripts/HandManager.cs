@@ -33,7 +33,7 @@ public class HandManager : MonoBehaviour
         maxNumberOfCardsToDraw += BombManager.instance.getBombCount();
     }
 
-    public void add(GameObject card)
+    public void add(GameObject card,Card cardValue)
     {
         if (cardObjects.Count == maxNumberOfCarddsInHand)
         {
@@ -48,6 +48,7 @@ public class HandManager : MonoBehaviour
         
         GameObject temp = Instantiate(card, new Vector3(DeckManager.instance.transform.position.x - (3.6f * (cardObjects.Count + 1) * cardWidth), DeckManager.instance.transform.position.y, DeckManager.instance.transform.position.z), Quaternion.identity, this.transform);
         temp.GetComponent<CardObject>().setIndex(cardObjects.Count);
+        temp.GetComponent<CardObject>().SetCard(cardValue);
         cardObjects.Add(temp);
         temp.hideFlags = HideFlags.None;
         cardsDrawn++;

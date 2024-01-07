@@ -11,6 +11,7 @@ public class DeckManager : MonoBehaviour
     public GameObject cardPrefab;
 
     public List<GameObject> cardObjects;
+    public List<Card> cardsList = new List<Card>();
 
     void Awake()
     {
@@ -31,12 +32,14 @@ public class DeckManager : MonoBehaviour
     void LoadCardsGameObjects()
     {
         CardsColection cardsColection = CardsColection.LoadCards("newcards");
+        cardsList = cardsColection.cards;
         Debug.Log(cardsColection.cards.Count);
         foreach (Card card in cardsColection.cards)
         {
             Debug.Log(card.GameObjectPath);
             CreateCard(card);
         }
+        Debug.Log(cardsList);
         //cardObjects = Utility.GetAtPath<GameObject>("Prefabs/CardsColection/");
     }
 
@@ -57,17 +60,15 @@ public class DeckManager : MonoBehaviour
         cardObject.SetCardValues(card);
         newCard.name = card.Name;
         cardObjects.Add(newCard);
-       
     }
 
-    public GameObject getRandom()
+    public int getRandom()
     {
         int index = Random.Range(0, cardObjects.Count);
         
         Debug.Log(cardObjects[index]);
-
+        return index;
         //usunac karte z talii (moze kiedys)
 
-        return cardObjects[index];
     }
 }

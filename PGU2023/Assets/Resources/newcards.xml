@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CardsColection>
 	<Cards>
-		<Card Name="Hearts_2">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_2">
+			<Symbol>Heart</Symbol>
 			<Value>2</Value>
 			<DevelopmentIntensity>0.02</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.01</SurfaceAreaPercentage>
@@ -15,8 +15,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart02_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_3">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_3">
+			<Symbol>Heart</Symbol>
 			<Value>3</Value>
 			<DevelopmentIntensity>0.04</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
@@ -29,8 +29,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart03_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_4">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_4">
+			<Symbol>Heart</Symbol>
 			<Value>4</Value>
 			<DevelopmentIntensity>0.05</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
@@ -43,8 +43,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart04_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_5">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_5">
+			<Symbol>Heart</Symbol>
 			<Value>5</Value>
 			<DevelopmentIntensity>0.05</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.03</SurfaceAreaPercentage>
@@ -57,8 +57,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart05_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_6">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_6">
+			<Symbol>Heart</Symbol>
 			<Value>6</Value>
 			<DevelopmentIntensity>0.07</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
@@ -71,8 +71,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart06_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_7">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_7">
+			<Symbol>Heart</Symbol>
 			<Value>7</Value>
 			<DevelopmentIntensity>0.08</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
@@ -85,8 +85,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart07_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_8">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_8">
+			<Symbol>Heart</Symbol>
 			<Value>8</Value>
 			<DevelopmentIntensity>0.09</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
@@ -99,8 +99,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart08_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_9">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_9">
+			<Symbol>Heart</Symbol>
 			<Value>9</Value>
 			<DevelopmentIntensity>0.11</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
@@ -113,8 +113,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart09_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_10">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_10">
+			<Symbol>Heart</Symbol>
 			<Value>10</Value>
 			<DevelopmentIntensity>0.18</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
@@ -127,8 +127,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart10_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_W">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_W">
+			<Symbol>Heart</Symbol>
 			<Value>11</Value>
 			<DevelopmentIntensity>0.42</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.09</SurfaceAreaPercentage>
@@ -141,8 +141,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart11_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_D">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_D">
+			<Symbol>Heart</Symbol>
 			<Value>12</Value>
 			<DevelopmentIntensity>0.52</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.14</SurfaceAreaPercentage>
@@ -155,8 +155,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart12_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_K">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_K">
+			<Symbol>Heart</Symbol>
 			<Value>13</Value>
 			<DevelopmentIntensity>0.86</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.20</SurfaceAreaPercentage>
@@ -169,8 +169,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart13_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Hearts_A">
-			<Symbol>Hearts</Symbol>
+		<Card Name="Heart_A">
+			<Symbol>Heart</Symbol>
 			<Value>14</Value>
 			<DevelopmentIntensity>1.17</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.21</SurfaceAreaPercentage>
@@ -365,8 +365,8 @@
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond01_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_2">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_2">
+			<Symbol>Spade</Symbol>
 			<Value>2</Value>
 			<DevelopmentIntensity>0.02</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.01</SurfaceAreaPercentage>
@@ -376,11 +376,11 @@
 			<TreeCount>78</TreeCount>
 			<Cost>151</Cost>
 			<GameObjectPath>Models/House27</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades02_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade02_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_3">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_3">
+			<Symbol>Spade</Symbol>
 			<Value>3</Value>
 			<DevelopmentIntensity>0.04</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
@@ -390,11 +390,11 @@
 			<TreeCount>78</TreeCount>
 			<Cost>151</Cost>
 			<GameObjectPath>Models/House28</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades03_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade03_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_4">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_4">
+			<Symbol>Spade</Symbol>
 			<Value>4</Value>
 			<DevelopmentIntensity>0.06</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
@@ -404,11 +404,11 @@
 			<TreeCount>75</TreeCount>
 			<Cost>152</Cost>
 			<GameObjectPath>Models/House29</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades04_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade04_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_5">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_5">
+			<Symbol>Spade</Symbol>
 			<Value>5</Value>
 			<DevelopmentIntensity>0.08</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.03</SurfaceAreaPercentage>
@@ -418,11 +418,11 @@
 			<TreeCount>82</TreeCount>
 			<Cost>155</Cost>
 			<GameObjectPath>Models/House30</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades05_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade05_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_6">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_6">
+			<Symbol>Spade</Symbol>
 			<Value>6</Value>
 			<DevelopmentIntensity>0.11</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.035</SurfaceAreaPercentage>
@@ -432,11 +432,11 @@
 			<TreeCount>73</TreeCount>
 			<Cost>157</Cost>
 			<GameObjectPath>Models/House31</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades06_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade06_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_7">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_7">
+			<Symbol>Spade</Symbol>
 			<Value>7</Value>
 			<DevelopmentIntensity>0.13</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
@@ -446,11 +446,11 @@
 			<TreeCount>78</TreeCount>
 			<Cost>158</Cost>
 			<GameObjectPath>Models/House32</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades07_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade07_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_8">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_8">
+			<Symbol>Spade</Symbol>
 			<Value>8</Value>
 			<DevelopmentIntensity>0.16</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
@@ -460,11 +460,11 @@
 			<TreeCount>77</TreeCount>
 			<Cost>159</Cost>
 			<GameObjectPath>Models/House33</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades08_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade08_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_9">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_9">
+			<Symbol>Spade</Symbol>
 			<Value>9</Value>
 			<DevelopmentIntensity>0.19</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
@@ -474,11 +474,11 @@
 			<TreeCount>72</TreeCount>
 			<Cost>163</Cost>
 			<GameObjectPath>Models/House34</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades09_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade09_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_10">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_10">
+			<Symbol>Spade</Symbol>
 			<Value>10</Value>
 			<DevelopmentIntensity>0.21</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
@@ -488,11 +488,11 @@
 			<TreeCount>70</TreeCount>
 			<Cost>167</Cost>
 			<GameObjectPath>Models/House35</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades10_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade10_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_W">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_W">
+			<Symbol>Spade</Symbol>
 			<Value>11</Value>
 			<DevelopmentIntensity>0.28</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.095</SurfaceAreaPercentage>
@@ -502,11 +502,11 @@
 			<TreeCount>70</TreeCount>
 			<Cost>168</Cost>
 			<GameObjectPath>Models/House36</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades11_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade11_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_D">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_D">
+			<Symbol>Spade</Symbol>
 			<Value>12</Value>
 			<DevelopmentIntensity>0.45</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.15</SurfaceAreaPercentage>
@@ -516,11 +516,11 @@
 			<TreeCount>75</TreeCount>
 			<Cost>181</Cost>
 			<GameObjectPath>Models/House37</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades12_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade12_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_K">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_K">
+			<Symbol>Spade</Symbol>
 			<Value>13</Value>
 			<DevelopmentIntensity>0.46</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.10</SurfaceAreaPercentage>
@@ -530,11 +530,11 @@
 			<TreeCount>65</TreeCount>
 			<Cost>185</Cost>
 			<GameObjectPath>Models/House38</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades13_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade13_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Spades_A">
-			<Symbol>Spades</Symbol>
+		<Card Name="Spade_A">
+			<Symbol>Spade</Symbol>
 			<Value>14</Value>
 			<DevelopmentIntensity>0.48</DevelopmentIntensity>
 			<SurfaceAreaPercentage>0.10</SurfaceAreaPercentage>
@@ -544,10 +544,10 @@
 			<TreeCount>61</TreeCount>
 			<Cost>198</Cost>
 			<GameObjectPath>Models/House39</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades01_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spade01_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_2">
+		<Card Name="Club_2">
 			<Symbol>Club</Symbol>
 			<Value>2</Value>
 			<DevelopmentIntensity>0.02</DevelopmentIntensity>
@@ -558,10 +558,10 @@
 			<TreeCount>11</TreeCount>
 			<Cost>79</Cost>
 			<GameObjectPath>Models/House40</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs02_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club02_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_3">
+		<Card Name="Club_3">
 			<Symbol>Club</Symbol>
 			<Value>3</Value>
 			<DevelopmentIntensity>0.07</DevelopmentIntensity>
@@ -572,10 +572,10 @@
 			<TreeCount>25</TreeCount>
 			<Cost>85</Cost>
 			<GameObjectPath>Models/House41</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs03_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club03_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_4">
+		<Card Name="Club_4">
 			<Symbol>Club</Symbol>
 			<Value>4</Value>
 			<DevelopmentIntensity>0.06</DevelopmentIntensity>
@@ -586,10 +586,10 @@
 			<TreeCount>23</TreeCount>
 			<Cost>91</Cost>
 			<GameObjectPath>Models/House42</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs04_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club04_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_5">
+		<Card Name="Club_5">
 			<Symbol>Club</Symbol>
 			<Value>5</Value>
 			<DevelopmentIntensity>0.15</DevelopmentIntensity>
@@ -600,10 +600,10 @@
 			<TreeCount>32</TreeCount>
 			<Cost>99</Cost>
 			<GameObjectPath>Models/House43</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs05_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club05_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_6">
+		<Card Name="Club_6">
 			<Symbol>Club</Symbol>
 			<Value>6</Value>
 			<DevelopmentIntensity>0.19</DevelopmentIntensity>
@@ -614,10 +614,10 @@
 			<TreeCount>39</TreeCount>
 			<Cost>112</Cost>
 			<GameObjectPath>Models/House44</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs06_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club06_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_7">
+		<Card Name="Club_7">
 			<Symbol>Club</Symbol>
 			<Value>7</Value>
 			<DevelopmentIntensity>0.27</DevelopmentIntensity>
@@ -628,10 +628,10 @@
 			<TreeCount>32</TreeCount>
 			<Cost>127</Cost>
 			<GameObjectPath>Models/House45</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs07_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club07_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_8">
+		<Card Name="Club_8">
 			<Symbol>Club</Symbol>
 			<Value>8</Value>
 			<DevelopmentIntensity>0.30</DevelopmentIntensity>
@@ -642,10 +642,10 @@
 			<TreeCount>41</TreeCount>
 			<Cost>135</Cost>
 			<GameObjectPath>Models/House46</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs08_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club08_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_9">
+		<Card Name="Club_9">
 			<Symbol>Club</Symbol>
 			<Value>9</Value>
 			<DevelopmentIntensity>0.35</DevelopmentIntensity>
@@ -656,10 +656,10 @@
 			<TreeCount>43</TreeCount>
 			<Cost>140</Cost>
 			<GameObjectPath>Models/House47</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs09_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club09_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_10">
+		<Card Name="Club_10">
 			<Symbol>Club</Symbol>
 			<Value>10</Value>
 			<DevelopmentIntensity>0.46</DevelopmentIntensity>
@@ -670,10 +670,10 @@
 			<TreeCount>43</TreeCount>
 			<Cost>150</Cost>
 			<GameObjectPath>Models/House48</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs10_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club10_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_W">
+		<Card Name="Club_W">
 			<Symbol>Club</Symbol>
 			<Value>11</Value>
 			<DevelopmentIntensity>0.59</DevelopmentIntensity>
@@ -684,10 +684,10 @@
 			<TreeCount>35</TreeCount>
 			<Cost>160</Cost>
 			<GameObjectPath>Models/House49</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs11_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club11_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_D">
+		<Card Name="Club_D">
 			<Symbol>Club</Symbol>
 			<Value>12</Value>
 			<DevelopmentIntensity>0.68</DevelopmentIntensity>
@@ -698,10 +698,10 @@
 			<TreeCount>44</TreeCount>
 			<Cost>166</Cost>
 			<GameObjectPath>Models/House50</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs12_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club12_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_K">
+		<Card Name="Club_K">
 			<Symbol>Club</Symbol>
 			<Value>13</Value>
 			<DevelopmentIntensity>0.78</DevelopmentIntensity>
@@ -712,10 +712,10 @@
 			<TreeCount>38</TreeCount>
 			<Cost>196</Cost>
 			<GameObjectPath>Models/House51</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs13_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club13_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
-		<Card Name="Clubs_A">
+		<Card Name="Club_A">
 			<Symbol>Club</Symbol>
 			<Value>14</Value>
 			<DevelopmentIntensity>0.97</DevelopmentIntensity>
@@ -726,7 +726,7 @@
 			<TreeCount>20</TreeCount>
 			<Cost>210</Cost>
 			<GameObjectPath>Models/House52</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs01_00</MaterialPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Club01_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 	</Cards>
