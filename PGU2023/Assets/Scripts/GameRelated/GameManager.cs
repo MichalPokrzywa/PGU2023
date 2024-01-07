@@ -15,11 +15,11 @@ public class GameManager : MonoBehaviour
 
     public int totalApartment = 0;
 
-    public int totalBiodegradable = 0;
+    public float totalBiodegradable = 0;
 
     public int totalTree = 0;
-    public int totalDevelopment = 0;
-    public int totalSurface = 0;
+    public float totalDevelopment = 0;
+    public float totalSurface = 0;
     public int totalFloors = 0;
 
     public bool isInWalkMode = false;
@@ -50,23 +50,29 @@ public class GameManager : MonoBehaviour
         totalDevelopment = 0;
         totalSurface = 0;
         totalFloors = 0;
-
+        int counter = 0;
         // Iterate through all tiles and update the scores
         foreach (TileObject tile in TileManager.instance.allTiles)
         {
+            Debug.Log(tile.card);
             // Update scores based on tile values
-            Card card = tile.card.GetCardValues();
+            CardObject card = tile.card;
             if(tile.card != null)
             {
-            totalCost += card.Cost;
-            totalApartment += card.NumberOfApartments;
-            totalBiodegradable += (int)card.BiodegradableSurfacePercentage;
-            totalTree += card.TreeCount;
-            totalDevelopment += (int)card.DevelopmentIntensity;
-            totalSurface = (int)card.SurfaceAreaPercentage;
-            totalFloors = card.AverageNumberOfFloors;
+                counter += 1;
+                totalCost += card.cost;
+                totalApartment += card.apartments;
+                totalBiodegradable += card.bioSurface;
+                totalTree += card.tree;
+                totalDevelopment += card.intensityDev;
+                totalSurface = card.areaSurface;
+                totalFloors = card.averageFloors;
             }
+            
         }
+
+        totalBiodegradable /= counter;
+        totalSurface /= counter;
         GameCanvas.instance.UpdateStats(totalCost, totalApartment, totalBiodegradable, totalTree, totalDevelopment, totalSurface, totalFloors);
     }
 }

@@ -15,13 +15,13 @@ public class CardObject : MonoBehaviour
     //parameters     
     [SerializeField] protected Symbol symbol;
     [SerializeField] protected int cardValue;
-    [SerializeField] protected int cost;
-    [SerializeField] protected float intensityDev;
-    [SerializeField] protected float bioSurface;
-    [SerializeField] protected float areaSurface;
-    [SerializeField] protected int apartments;
-    [SerializeField] protected int averageFloors;
-    [SerializeField] protected int tree;
+    [SerializeField] public int cost;
+    [SerializeField] public float intensityDev;
+    [SerializeField] public float bioSurface;
+    [SerializeField] public float areaSurface;
+    [SerializeField] public int apartments;
+    [SerializeField] public int averageFloors;
+    [SerializeField] public int tree;
     [SerializeField] GameObject gameObjectModel;
     [SerializeField] Material cardMaterial;
 

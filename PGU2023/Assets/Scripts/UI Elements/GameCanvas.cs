@@ -29,7 +29,7 @@ public class GameCanvas : MonoBehaviour
         }
     }
 
-    public void UpdateStats(int item1, int item2, int item3, int item4, int item5, int item6, int item7)
+    public void UpdateStats(int item1, int item2, float item3, int item4, float item5, float item6, int item7)
     {
         statsUi.UpdateUiScore(item1, item2, item3, item4, item5, item6, item7);
     }

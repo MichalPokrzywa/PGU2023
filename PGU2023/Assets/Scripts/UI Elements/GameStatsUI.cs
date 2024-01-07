@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -17,16 +18,16 @@ public class GameStatsUI : MonoBehaviour
         }
     }
 
-    public void UpdateUiScore(int item1,int item2,int item3,int item4, int item5, int item6, int item7)
+    public void UpdateUiScore(int item1,int item2,float item3,int item4, float item5, float item6, int item7)
     {
         texts[0].text = item1.ToString();
         texts[1].text = item2.ToString();
-        texts[2].text = item3.ToString();
+        texts[2].text = MathF.Round(item3, 3).ToString();
         texts[3].text = item4.ToString();
-        texts[4].text = item5.ToString();
-        texts[5].text = item6.ToString();
+        texts[4].text = MathF.Round(item5, 3).ToString();
+        texts[5].text = MathF.Round(item5, 3).ToString();
         texts[6].text = item7.ToString();
-        
+        ;
     }
 
 }
