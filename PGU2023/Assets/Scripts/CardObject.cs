@@ -5,14 +5,13 @@ using UnityEngine;
 
 public enum Symbol
 {
-    Heart,
-    Diamond,
-    Club,
-    Spade
+    Heart,  //apartments averageFloors
+    Diamond,    //cost intensivity
+    Club,   //tree bioSurface
+    Spade   //areaSurface apartments
 }
 public class CardObject : MonoBehaviour
 {
-    //parameters     
     [SerializeField] protected Symbol symbol;
     [SerializeField] protected int cardValue;
     [SerializeField] public int cost;
