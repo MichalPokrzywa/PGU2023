@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4000011752867850}
   - component: {fileID: 33000011779403564}
   - component: {fileID: 23000010106202272}
+  - component: {fileID: -2853306527462378278}
+  - component: {fileID: 5962315355741805469}
   m_Layer: 0
   m_Name: House39
   m_TagString: Untagged
@@ -83,3 +85,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &-2853306527462378278
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010055606548}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.0470002, y: 2.141, z: 2.5740001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.008, y: 2.141, z: -0.21200001}
+  m_TimeToStationary: 0.5
+--- !u!114 &5962315355741805469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010055606548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06c4237e11f7d840867853df5d685ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
