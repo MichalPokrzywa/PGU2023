@@ -80,8 +80,9 @@ public class TileObject : MonoBehaviour
                 }
                 currentValue = card.GetValueTuple();
                 TileManager.instance.InformTiles(this);
-            }
             AddPeople();
+            }
+
         }
     }
 
