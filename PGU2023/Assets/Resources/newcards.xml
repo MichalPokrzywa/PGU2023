@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CardsColection>
 	<Cards>
-
-		<Card Name="Diamond_7">
-			<Symbol>Diamond</Symbol>
-			<Value>7</Value>
-			<DevelopmentIntensity>0.29</DevelopmentIntensity>
-			<SurfaceAreaPercentage>0.11</SurfaceAreaPercentage>
-			<AverageNumberOfFloors>3</AverageNumberOfFloors>
-			<NumberOfApartments>28</NumberOfApartments>
-			<BiodegradableSurfacePercentage>0.49</BiodegradableSurfacePercentage>
-			<TreeCount>12</TreeCount>
-			<Cost>89</Cost>
-			<GameObjectPath>Models/House2</GameObjectPath>
-			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond07_00</MaterialPath>
-			<IsSpecial>false</IsSpecial>
-		</Card>
 		<Card Name="Hearts_2">
 			<Symbol>Hearts</Symbol>
 			<Value>2</Value>
@@ -26,7 +11,7 @@
 			<BiodegradableSurfacePercentage>0.59</BiodegradableSurfacePercentage>
 			<TreeCount>14</TreeCount>
 			<Cost>77</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House1</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart02_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -40,7 +25,7 @@
 			<BiodegradableSurfacePercentage>0.57</BiodegradableSurfacePercentage>
 			<TreeCount>14</TreeCount>
 			<Cost>77</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House2</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart03_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -54,7 +39,7 @@
 			<BiodegradableSurfacePercentage>0.56</BiodegradableSurfacePercentage>
 			<TreeCount>13</TreeCount>
 			<Cost>77</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House3</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart04_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -68,7 +53,7 @@
 			<BiodegradableSurfacePercentage>0.55</BiodegradableSurfacePercentage>
 			<TreeCount>14</TreeCount>
 			<Cost>79</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House4</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart05_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -82,7 +67,7 @@
 			<BiodegradableSurfacePercentage>0.54</BiodegradableSurfacePercentage>
 			<TreeCount>12</TreeCount>
 			<Cost>78</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House5</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart06_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -96,7 +81,7 @@
 			<BiodegradableSurfacePercentage>0.55</BiodegradableSurfacePercentage>
 			<TreeCount>13</TreeCount>
 			<Cost>82</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House6</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart07_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -110,7 +95,7 @@
 			<BiodegradableSurfacePercentage>0.53</BiodegradableSurfacePercentage>
 			<TreeCount>13</TreeCount>
 			<Cost>82</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House7</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart08_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -124,7 +109,7 @@
 			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
 			<TreeCount>16</TreeCount>
 			<Cost>84</Cost>
-			<GameObjectPath> </GameObjectPath>
+			<GameObjectPath>Models/House8</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart09_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -138,7 +123,7 @@
 			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
 			<TreeCount>14</TreeCount>
 			<Cost>94</Cost>
-			<GameObjectPath>Models/House1</GameObjectPath>
+			<GameObjectPath>Models/House9</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart10_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -152,7 +137,7 @@
 			<BiodegradableSurfacePercentage>0.45</BiodegradableSurfacePercentage>
 			<TreeCount>30</TreeCount>
 			<Cost>131</Cost>
-			<GameObjectPath>Models/House3</GameObjectPath>
+			<GameObjectPath>Models/House10</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart11_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -166,7 +151,7 @@
 			<BiodegradableSurfacePercentage>0.44</BiodegradableSurfacePercentage>
 			<TreeCount>32</TreeCount>
 			<Cost>148</Cost>
-			<GameObjectPath>Models/House4</GameObjectPath>
+			<GameObjectPath>Models/House11</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart12_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -180,7 +165,7 @@
 			<BiodegradableSurfacePercentage>0.36</BiodegradableSurfacePercentage>
 			<TreeCount>22</TreeCount>
 			<Cost>204</Cost>
-			<GameObjectPath>Models/House5</GameObjectPath>
+			<GameObjectPath>Models/House12</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart13_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
@@ -194,8 +179,554 @@
 			<BiodegradableSurfacePercentage>0.28</BiodegradableSurfacePercentage>
 			<TreeCount>15</TreeCount>
 			<Cost>233</Cost>
-			<GameObjectPath>Models/House6</GameObjectPath>
+			<GameObjectPath>Models/House13</GameObjectPath>
 			<MaterialPath>CardMaterials/Blue_PlayingCards_Heart01_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_2">
+			<Symbol>Diamond</Symbol>
+			<Value>2</Value>
+			<DevelopmentIntensity>0.02</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>1</AverageNumberOfFloors>
+			<NumberOfApartments>4</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.59</BiodegradableSurfacePercentage>
+			<TreeCount>4</TreeCount>
+			<Cost>67</Cost>
+			<GameObjectPath>Models/House14</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond02_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_3">
+			<Symbol>Diamond</Symbol>
+			<Value>3</Value>
+			<DevelopmentIntensity>0.08</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>6</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.56</BiodegradableSurfacePercentage>
+			<TreeCount>6</TreeCount>
+			<Cost>68</Cost>
+			<GameObjectPath>Models/House15</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond03_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_4">
+			<Symbol>Diamond</Symbol>
+			<Value>4</Value>
+			<DevelopmentIntensity>0.09</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.07</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>8</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.61</BiodegradableSurfacePercentage>
+			<TreeCount>8</TreeCount>
+			<Cost>77</Cost>
+			<GameObjectPath>Models/House16</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond04_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_5">
+			<Symbol>Diamond</Symbol>
+			<Value>5</Value>
+			<DevelopmentIntensity>0.16</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.07</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>20</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
+			<TreeCount>10</TreeCount>
+			<Cost>80</Cost>
+			<GameObjectPath>Models/House17</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond05_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_6">
+			<Symbol>Diamond</Symbol>
+			<Value>6</Value>
+			<DevelopmentIntensity>0.27</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.10</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>24</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.49</BiodegradableSurfacePercentage>
+			<TreeCount>11</TreeCount>
+			<Cost>84</Cost>
+			<GameObjectPath>Models/House18</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond06_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_7">
+			<Symbol>Diamond</Symbol>
+			<Value>7</Value>
+			<DevelopmentIntensity>0.29</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.11</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>28</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.49</BiodegradableSurfacePercentage>
+			<TreeCount>12</TreeCount>
+			<Cost>89</Cost>
+			<GameObjectPath>Models/House19</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond07_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_8">
+			<Symbol>Diamond</Symbol>
+			<Value>8</Value>
+			<DevelopmentIntensity>0.31</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.11</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>32</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.49</BiodegradableSurfacePercentage>
+			<TreeCount>13</TreeCount>
+			<Cost>94</Cost>
+			<GameObjectPath>Models/House20</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond08_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_9">
+			<Symbol>Diamond</Symbol>
+			<Value>9</Value>
+			<DevelopmentIntensity>0.34</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.12</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>36</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.48</BiodegradableSurfacePercentage>
+			<TreeCount>14</TreeCount>
+			<Cost>98</Cost>
+			<GameObjectPath>Models/House21</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond09_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_10">
+			<Symbol>Diamond</Symbol>
+			<Value>10</Value>
+			<DevelopmentIntensity>0.39</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.12</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>45</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.48</BiodegradableSurfacePercentage>
+			<TreeCount>15</TreeCount>
+			<Cost>108</Cost>
+			<GameObjectPath>Models/House22</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond10_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_W">
+			<Symbol>Diamond</Symbol>
+			<Value>11</Value>
+			<DevelopmentIntensity>0.84</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.22</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>7</AverageNumberOfFloors>
+			<NumberOfApartments>72</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.34</BiodegradableSurfacePercentage>
+			<TreeCount>10</TreeCount>
+			<Cost>116</Cost>
+			<GameObjectPath>Models/House23</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond11_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_D">
+			<Symbol>Diamond</Symbol>
+			<Value>12</Value>
+			<DevelopmentIntensity>1.02</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.26</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>8</AverageNumberOfFloors>
+			<NumberOfApartments>88</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.28</BiodegradableSurfacePercentage>
+			<TreeCount>8</TreeCount>
+			<Cost>124</Cost>
+			<GameObjectPath>Models/House24</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond12_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_K">
+			<Symbol>Diamond</Symbol>
+			<Value>13</Value>
+			<DevelopmentIntensity>1.53</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.34</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>6</AverageNumberOfFloors>
+			<NumberOfApartments>162</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.22</BiodegradableSurfacePercentage>
+			<TreeCount>6</TreeCount>
+			<Cost>190</Cost>
+			<GameObjectPath>Models/House25</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond13_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Diamond_A">
+			<Symbol>Diamond</Symbol>
+			<Value>14</Value>
+			<DevelopmentIntensity>1.90</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.35</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>8</AverageNumberOfFloors>
+			<NumberOfApartments>192</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.20</BiodegradableSurfacePercentage>
+			<TreeCount>4</TreeCount>
+			<Cost>216</Cost>
+			<GameObjectPath>Models/House26</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Diamond01_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_2">
+			<Symbol>Spades</Symbol>
+			<Value>2</Value>
+			<DevelopmentIntensity>0.02</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.01</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>1</AverageNumberOfFloors>
+			<NumberOfApartments>2</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.71</BiodegradableSurfacePercentage>
+			<TreeCount>78</TreeCount>
+			<Cost>151</Cost>
+			<GameObjectPath>Models/House27</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades02_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_3">
+			<Symbol>Spades</Symbol>
+			<Value>3</Value>
+			<DevelopmentIntensity>0.04</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>6</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.67</BiodegradableSurfacePercentage>
+			<TreeCount>78</TreeCount>
+			<Cost>151</Cost>
+			<GameObjectPath>Models/House28</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades03_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_4">
+			<Symbol>Spades</Symbol>
+			<Value>4</Value>
+			<DevelopmentIntensity>0.06</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.02</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>12</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.65</BiodegradableSurfacePercentage>
+			<TreeCount>75</TreeCount>
+			<Cost>152</Cost>
+			<GameObjectPath>Models/House29</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades04_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_5">
+			<Symbol>Spades</Symbol>
+			<Value>5</Value>
+			<DevelopmentIntensity>0.08</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.03</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>10</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.63</BiodegradableSurfacePercentage>
+			<TreeCount>82</TreeCount>
+			<Cost>155</Cost>
+			<GameObjectPath>Models/House30</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades05_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_6">
+			<Symbol>Spades</Symbol>
+			<Value>6</Value>
+			<DevelopmentIntensity>0.11</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.035</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>18</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.63</BiodegradableSurfacePercentage>
+			<TreeCount>73</TreeCount>
+			<Cost>157</Cost>
+			<GameObjectPath>Models/House31</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades06_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_7">
+			<Symbol>Spades</Symbol>
+			<Value>7</Value>
+			<DevelopmentIntensity>0.13</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>21</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.59</BiodegradableSurfacePercentage>
+			<TreeCount>78</TreeCount>
+			<Cost>158</Cost>
+			<GameObjectPath>Models/House32</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades07_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_8">
+			<Symbol>Spades</Symbol>
+			<Value>8</Value>
+			<DevelopmentIntensity>0.16</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.04</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>24</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.58</BiodegradableSurfacePercentage>
+			<TreeCount>77</TreeCount>
+			<Cost>159</Cost>
+			<GameObjectPath>Models/House33</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades08_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_9">
+			<Symbol>Spades</Symbol>
+			<Value>9</Value>
+			<DevelopmentIntensity>0.19</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>4</AverageNumberOfFloors>
+			<NumberOfApartments>36</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.55</BiodegradableSurfacePercentage>
+			<TreeCount>72</TreeCount>
+			<Cost>163</Cost>
+			<GameObjectPath>Models/House34</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades09_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_10">
+			<Symbol>Spades</Symbol>
+			<Value>10</Value>
+			<DevelopmentIntensity>0.21</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>4</AverageNumberOfFloors>
+			<NumberOfApartments>40</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.53</BiodegradableSurfacePercentage>
+			<TreeCount>70</TreeCount>
+			<Cost>167</Cost>
+			<GameObjectPath>Models/House35</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades10_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_W">
+			<Symbol>Spades</Symbol>
+			<Value>11</Value>
+			<DevelopmentIntensity>0.28</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.095</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>6</AverageNumberOfFloors>
+			<NumberOfApartments>48</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
+			<TreeCount>70</TreeCount>
+			<Cost>168</Cost>
+			<GameObjectPath>Models/House36</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades11_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_D">
+			<Symbol>Spades</Symbol>
+			<Value>12</Value>
+			<DevelopmentIntensity>0.45</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.15</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>7</AverageNumberOfFloors>
+			<NumberOfApartments>56</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.50</BiodegradableSurfacePercentage>
+			<TreeCount>75</TreeCount>
+			<Cost>181</Cost>
+			<GameObjectPath>Models/House37</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades12_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_K">
+			<Symbol>Spades</Symbol>
+			<Value>13</Value>
+			<DevelopmentIntensity>0.46</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.10</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>9</AverageNumberOfFloors>
+			<NumberOfApartments>86</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.51</BiodegradableSurfacePercentage>
+			<TreeCount>65</TreeCount>
+			<Cost>185</Cost>
+			<GameObjectPath>Models/House38</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades13_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Spades_A">
+			<Symbol>Spades</Symbol>
+			<Value>14</Value>
+			<DevelopmentIntensity>0.48</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.10</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>8</AverageNumberOfFloors>
+			<NumberOfApartments>88</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.49</BiodegradableSurfacePercentage>
+			<TreeCount>61</TreeCount>
+			<Cost>198</Cost>
+			<GameObjectPath>Models/House39</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Spades01_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_2">
+			<Symbol>Club</Symbol>
+			<Value>2</Value>
+			<DevelopmentIntensity>0.02</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.01</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>4</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.64</BiodegradableSurfacePercentage>
+			<TreeCount>11</TreeCount>
+			<Cost>79</Cost>
+			<GameObjectPath>Models/House40</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs02_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_3">
+			<Symbol>Club</Symbol>
+			<Value>3</Value>
+			<DevelopmentIntensity>0.07</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.035</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>6</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.54</BiodegradableSurfacePercentage>
+			<TreeCount>25</TreeCount>
+			<Cost>85</Cost>
+			<GameObjectPath>Models/House41</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs03_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_4">
+			<Symbol>Club</Symbol>
+			<Value>4</Value>
+			<DevelopmentIntensity>0.06</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.03</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>2</AverageNumberOfFloors>
+			<NumberOfApartments>8</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.60</BiodegradableSurfacePercentage>
+			<TreeCount>23</TreeCount>
+			<Cost>91</Cost>
+			<GameObjectPath>Models/House42</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs04_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_5">
+			<Symbol>Club</Symbol>
+			<Value>5</Value>
+			<DevelopmentIntensity>0.15</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>20</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.47</BiodegradableSurfacePercentage>
+			<TreeCount>32</TreeCount>
+			<Cost>99</Cost>
+			<GameObjectPath>Models/House43</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs05_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_6">
+			<Symbol>Club</Symbol>
+			<Value>6</Value>
+			<DevelopmentIntensity>0.19</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.05</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>4</AverageNumberOfFloors>
+			<NumberOfApartments>30</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.43</BiodegradableSurfacePercentage>
+			<TreeCount>39</TreeCount>
+			<Cost>112</Cost>
+			<GameObjectPath>Models/House44</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs06_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_7">
+			<Symbol>Club</Symbol>
+			<Value>7</Value>
+			<DevelopmentIntensity>0.27</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>3</AverageNumberOfFloors>
+			<NumberOfApartments>42</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.53</BiodegradableSurfacePercentage>
+			<TreeCount>32</TreeCount>
+			<Cost>127</Cost>
+			<GameObjectPath>Models/House45</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs07_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_8">
+			<Symbol>Club</Symbol>
+			<Value>8</Value>
+			<DevelopmentIntensity>0.30</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.07</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>4</AverageNumberOfFloors>
+			<NumberOfApartments>48</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.46</BiodegradableSurfacePercentage>
+			<TreeCount>41</TreeCount>
+			<Cost>135</Cost>
+			<GameObjectPath>Models/House46</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs08_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_9">
+			<Symbol>Club</Symbol>
+			<Value>9</Value>
+			<DevelopmentIntensity>0.35</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.06</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>5</AverageNumberOfFloors>
+			<NumberOfApartments>54</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.43</BiodegradableSurfacePercentage>
+			<TreeCount>43</TreeCount>
+			<Cost>140</Cost>
+			<GameObjectPath>Models/House47</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs09_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_10">
+			<Symbol>Club</Symbol>
+			<Value>10</Value>
+			<DevelopmentIntensity>0.46</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.08</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>5</AverageNumberOfFloors>
+			<NumberOfApartments>70</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.45</BiodegradableSurfacePercentage>
+			<TreeCount>43</TreeCount>
+			<Cost>150</Cost>
+			<GameObjectPath>Models/House48</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs10_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_W">
+			<Symbol>Club</Symbol>
+			<Value>11</Value>
+			<DevelopmentIntensity>0.59</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.08</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>9</AverageNumberOfFloors>
+			<NumberOfApartments>74</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.51</BiodegradableSurfacePercentage>
+			<TreeCount>35</TreeCount>
+			<Cost>160</Cost>
+			<GameObjectPath>Models/House49</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs11_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_D">
+			<Symbol>Club</Symbol>
+			<Value>12</Value>
+			<DevelopmentIntensity>0.68</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.11</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>9</AverageNumberOfFloors>
+			<NumberOfApartments>80</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.42</BiodegradableSurfacePercentage>
+			<TreeCount>44</TreeCount>
+			<Cost>166</Cost>
+			<GameObjectPath>Models/House50</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs12_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_K">
+			<Symbol>Club</Symbol>
+			<Value>13</Value>
+			<DevelopmentIntensity>0.78</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.12</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>9</AverageNumberOfFloors>
+			<NumberOfApartments>120</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.38</BiodegradableSurfacePercentage>
+			<TreeCount>38</TreeCount>
+			<Cost>196</Cost>
+			<GameObjectPath>Models/House51</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs13_00</MaterialPath>
+			<IsSpecial>false</IsSpecial>
+		</Card>
+		<Card Name="Clubs_A">
+			<Symbol>Club</Symbol>
+			<Value>14</Value>
+			<DevelopmentIntensity>0.97</DevelopmentIntensity>
+			<SurfaceAreaPercentage>0.19</SurfaceAreaPercentage>
+			<AverageNumberOfFloors>5</AverageNumberOfFloors>
+			<NumberOfApartments>154</NumberOfApartments>
+			<BiodegradableSurfacePercentage>0.36</BiodegradableSurfacePercentage>
+			<TreeCount>20</TreeCount>
+			<Cost>210</Cost>
+			<GameObjectPath>Models/House52</GameObjectPath>
+			<MaterialPath>CardMaterials/Blue_PlayingCards_Clubs01_00</MaterialPath>
 			<IsSpecial>false</IsSpecial>
 		</Card>
 	</Cards>
