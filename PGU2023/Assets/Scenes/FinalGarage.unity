@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 281346396724669162, guid: 0c3de837aa13a354f96b45c2dda65ffb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 281346396724669162, guid: 0c3de837aa13a354f96b45c2dda65ffb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3402,7 +3402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060162287}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -500, y: 0.999999, z: -500}
+  m_LocalPosition: {x: -500, y: 2.9999, z: -500}
   m_LocalScale: {x: 1, y: 26.89, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3748,6 +3748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsUi: {fileID: 336494864}
   endButton: {fileID: 672219600}
+  cardShowUI: {fileID: 0}
 --- !u!114 &1139007708
 MonoBehaviour:
   m_ObjectHideFlags: 0
