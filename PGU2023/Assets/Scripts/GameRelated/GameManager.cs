@@ -8,7 +8,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
     private static GameManager _instance;
     public static GameManager instance => _instance;
 
@@ -56,11 +55,18 @@ public class GameManager : MonoBehaviour
         foreach (TileObject tile in TileManager.instance.allTiles)
         {
             // Update scores based on tile values
-            totalCost += tile.currentValue.value;
-            totalApartment += tile.currentValue.cost;
-            totalBiodegradable += tile.currentValue.interest;
-            totalTree += tile.currentValue.functionality;
+            Card card = tile.card.GetCardValues();
+            if(tile.card != null)
+            {
+            totalCost += card.Cost;
+            totalApartment += card.NumberOfApartments;
+            totalBiodegradable += (int)card.BiodegradableSurfacePercentage;
+            totalTree += card.TreeCount;
+            totalDevelopment += (int)card.DevelopmentIntensity;
+            totalSurface = (int)card.SurfaceAreaPercentage;
+            totalFloors = card.AverageNumberOfFloors;
+            }
         }
-        GameCanvas.instance.UpdateStats(totalCost, totalApartment, totalBiodegradable, totalTree);
+        GameCanvas.instance.UpdateStats(totalCost, totalApartment, totalBiodegradable, totalTree, totalDevelopment, totalSurface, totalFloors);
     }
 }
