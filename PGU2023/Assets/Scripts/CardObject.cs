@@ -29,13 +29,14 @@ public class CardObject : MonoBehaviour
 
     private bool buildOnce = true;
 
+    private bool showCard = false;
+    
     private float initialYPosition;
     private Plane dragPlane;
     private Camera mainCamera;
     private Vector3 targetPosition;
     private int handIndex;
-    private Card card;
-
+    protected Card card;
     private void Start()
     {
         mainCamera = Camera.main;
@@ -51,6 +52,11 @@ public class CardObject : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         float enter;
         isDragged = true;
+        if (!showCard)
+        {
+            showCard = true;
+            GameCanvas.instance.ShowCard(this);
+        }
 
         // Raycast to find the intersection with the drag plane
         if (dragPlane.Raycast(ray, out enter))
@@ -68,7 +74,10 @@ public class CardObject : MonoBehaviour
 
     private void OnMouseUp()
     {
+        Debug.Log(showCard);
         isDragged = false;
+        GameCanvas.instance.HideCard();
+        showCard = false;
     }
 
     public virtual bool IsCardSpecial()
@@ -133,7 +142,13 @@ public class CardObject : MonoBehaviour
 
     public Card GetCardValues()
     {
+        Debug.Log(card);
         return card;
+    }
+
+    public void SetCard(Card card)
+    {
+        this.card = card;
     }
 
 

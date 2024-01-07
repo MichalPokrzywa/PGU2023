@@ -14,10 +14,9 @@ public class DrawCard : MonoBehaviour
             {
                 return;
             }
-            GameObject card = DeckManager.instance.getRandom();
-            Texture2D texture = card.GetComponent<CardObject>().GetCardTexture();
-            tmp.sprite = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), new Vector2(0.5f, 0.5f), 100.0f);
-            HandManager.instance.add(card);
+
+            int index = DeckManager.instance.getRandom();
+            HandManager.instance.add(DeckManager.instance.cardObjects[index], DeckManager.instance.cardsList[index]);
             //wywolujemy handmanager: add
         }        
     }
