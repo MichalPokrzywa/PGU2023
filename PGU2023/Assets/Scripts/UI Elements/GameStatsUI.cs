@@ -25,7 +25,7 @@ public class GameStatsUI : MonoBehaviour
         texts[2].text = MathF.Round(item3, 3).ToString();
         texts[3].text = item4.ToString();
         texts[4].text = MathF.Round(item5, 3).ToString();
-        texts[5].text = MathF.Round(item5, 3).ToString();
+        texts[5].text = MathF.Round(item6, 3).ToString();
         texts[6].text = item7.ToString();
         ;
     }
