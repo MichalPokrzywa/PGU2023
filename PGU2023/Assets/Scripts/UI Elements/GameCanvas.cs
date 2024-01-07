@@ -12,7 +12,7 @@ public class GameCanvas : MonoBehaviour
 
     [SerializeField] GameStatsUI statsUi;
     [SerializeField] Button endButton;
-
+    [SerializeField] CardShowUI cardShowUI;
     void Start()
     {
         endButton.onClick.AddListener(SendValuesToEnd);
@@ -34,6 +34,16 @@ public class GameCanvas : MonoBehaviour
         statsUi.UpdateUiScore(item1, item2, item3, item4);
     }
 
+    public void ShowCard(CardObject cardObject)
+    {
+        cardShowUI.gameObject.SetActive(true);
+        cardShowUI.UpdateCard(cardObject);
+    }
+
+    public void HideCard()
+    {
+        cardShowUI.gameObject.SetActive(false);
+    }
     public void SendValuesToEnd()
     {
         GameManager manager = GameManager.instance;

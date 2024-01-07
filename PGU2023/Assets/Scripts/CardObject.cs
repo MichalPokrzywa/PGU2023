@@ -34,6 +34,7 @@ public class CardObject : MonoBehaviour
     private Camera mainCamera;
     private Vector3 targetPosition;
     private int handIndex;
+    private Card card;
 
     private void Start()
     {
@@ -80,6 +81,7 @@ public class CardObject : MonoBehaviour
     }
     public void SetCardValues(Card cardFile)
     {
+        card = cardFile;
         symbol = Enum.Parse<Symbol>(cardFile.Symbol);
         cardValue = cardFile.Value;
         cost = cardFile.Cost;
@@ -127,6 +129,11 @@ public class CardObject : MonoBehaviour
     public Texture2D GetCardTexture()
     {
         return (Texture2D)cardMaterial.GetTexture("_MainTex2");
+    }
+
+    public Card GetCardValues()
+    {
+        return card;
     }
 
 
