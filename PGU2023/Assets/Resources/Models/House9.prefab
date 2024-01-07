@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4000012727217488}
   - component: {fileID: 33000012700869682}
   - component: {fileID: 23000011197096256}
+  - component: {fileID: -5872816192907403866}
+  - component: {fileID: 5177308083253573429}
   m_Layer: 0
   m_Name: House9
   m_TagString: Untagged
@@ -83,3 +85,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &-5872816192907403866
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011269709422}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 5.092, y: 3.4310002, z: 3.4210002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.39000002, y: 3.4310002, z: -0.78900003}
+  m_TimeToStationary: 0.5
+--- !u!114 &5177308083253573429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011269709422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06c4237e11f7d840867853df5d685ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

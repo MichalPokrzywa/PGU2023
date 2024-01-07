@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4000011041864976}
   - component: {fileID: 33000011007162430}
   - component: {fileID: 23000012603468436}
+  - component: {fileID: 2937100525599177143}
+  - component: {fileID: -6126863105393978472}
   m_Layer: 0
   m_Name: House13
   m_TagString: Untagged
@@ -83,3 +85,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!208 &2937100525599177143
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012313036626}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.638, y: 1.5040001, z: 2.8730001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.056, y: 1.5040001, z: 0.38300002}
+  m_TimeToStationary: 0.5
+--- !u!114 &-6126863105393978472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012313036626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06c4237e11f7d840867853df5d685ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

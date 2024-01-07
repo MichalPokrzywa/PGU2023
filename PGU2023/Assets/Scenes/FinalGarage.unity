@@ -1353,7 +1353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7520798748974925765, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 8498339682204580041, guid: 4d43dfe336c30054a9707eb8a965a699, type: 3}
       propertyPath: headHight
@@ -3748,6 +3748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsUi: {fileID: 336494864}
   endButton: {fileID: 672219600}
+  cardShowUI: {fileID: 0}
 --- !u!114 &1139007708
 MonoBehaviour:
   m_ObjectHideFlags: 0
