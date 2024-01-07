@@ -7,6 +7,6 @@ public class EndMoveData : ScriptableObject
 {
     public int cost;
     public int value;
-    public int intrest;
+    public float intrest;
     public int functionality;
 }
