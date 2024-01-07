@@ -47,7 +47,7 @@ public class GameCanvas : MonoBehaviour
     public void SendValuesToEnd()
     {
         GameManager manager = GameManager.instance;
-        GetComponent<EndWriter>().StoreData(manager.totalCost,manager.totalValue,manager.totalInterest,manager.totalFunctionality);
+        GetComponent<EndWriter>().StoreData(manager.totalApartment,manager.totalCost,manager.totalBiodegradable,manager.totalTree);
         SceneManager.LoadScene("EndingScreen");
 
     }
