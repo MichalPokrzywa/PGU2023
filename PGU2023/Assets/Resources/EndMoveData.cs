@@ -5,8 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "endData")]
 public class EndMoveData : ScriptableObject
 {
-    public int cost;
-    public int value;
-    public float intrest;
-    public int functionality;
+    public float endScore;
 }

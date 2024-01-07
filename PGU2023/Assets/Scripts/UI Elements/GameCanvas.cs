@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,9 +14,12 @@ public class GameCanvas : MonoBehaviour
     [SerializeField] GameStatsUI statsUi;
     [SerializeField] Button endButton;
     [SerializeField] CardShowUI cardShowUI;
+    [SerializeField] TMP_Text ada;
     void Start()
     {
         endButton.onClick.AddListener(SendValuesToEnd);
+        MoveData move = GetComponent<Consumer>().GetData();
+        ada.text = move.nickname;
     }
     void Awake()
     {
@@ -47,7 +51,7 @@ public class GameCanvas : MonoBehaviour
     public void SendValuesToEnd()
     {
         GameManager manager = GameManager.instance;
-        GetComponent<EndWriter>().StoreData(manager.totalApartment,manager.totalCost,manager.totalBiodegradable,manager.totalTree);
+        GetComponent<EndWriter>().StoreData(manager.totalApartment);
         SceneManager.LoadScene("EndingScreen");
 
     }

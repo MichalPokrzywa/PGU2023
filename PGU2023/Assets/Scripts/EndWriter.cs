@@ -8,11 +8,8 @@ public class EndWriter : MonoBehaviour
     [SerializeField] EndMoveData data;
     [SerializeField] MoveData startdata;
 
-    public void StoreData(int cost, int value, float intrest, int functionality)
+    public void StoreData(int cost)
     {
-        data.cost = cost;
-        data.value = value;
-        data.intrest = intrest;
-        data.functionality = functionality;
+        data.endScore = cost;
     }
 }

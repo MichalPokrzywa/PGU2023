@@ -6,4 +6,8 @@ public class Consumer : MonoBehaviour
 {
     [SerializeField] MoveData data;
 
+    public MoveData GetData()
+    {
+        return data;
+    }
 }
