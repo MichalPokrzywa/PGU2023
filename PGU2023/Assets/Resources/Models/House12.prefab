@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4000012515192682}
   - component: {fileID: 33000012481456878}
   - component: {fileID: 23000010691289140}
-  - component: {fileID: -6307604618435470178}
   - component: {fileID: -8291321182069420910}
+  - component: {fileID: -6307604618435470178}
   m_Layer: 0
   m_Name: House12
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 1000010743779702}
   m_LocalRotation: {x: 0.0000018099951, y: -0.00000004371139, z: 7.9178634e-14, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.91, y: 0.91, z: 0.91}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,22 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!208 &-6307604618435470178
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010743779702}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 2.13, y: 1.8600001, z: 1.5170001}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: -0.05, y: 1.853, z: -0.22100002}
-  m_TimeToStationary: 0.5
 --- !u!114 &-8291321182069420910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,3 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06c4237e11f7d840867853df5d685ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &-6307604618435470178
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010743779702}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.13, y: 1.8600001, z: 1.5170001}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.05, y: 1.853, z: -0.22100002}
+  m_TimeToStationary: 0.5

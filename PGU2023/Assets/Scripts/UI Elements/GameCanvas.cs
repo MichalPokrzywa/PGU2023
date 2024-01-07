@@ -36,8 +36,8 @@ public class GameCanvas : MonoBehaviour
 
     public void ShowCard(CardObject cardObject)
     {
-        cardShowUI.gameObject.SetActive(true);
         cardShowUI.UpdateCard(cardObject);
+        cardShowUI.gameObject.SetActive(true);
     }
 
     public void HideCard()

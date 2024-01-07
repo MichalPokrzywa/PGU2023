@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4000012909054596}
   - component: {fileID: 33000012923717604}
   - component: {fileID: 23000013258771980}
-  - component: {fileID: 6620518390211962183}
   - component: {fileID: 1300537972652383337}
+  - component: {fileID: 6620518390211962183}
   m_Layer: 0
   m_Name: House49
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 1000013383004070}
   m_LocalRotation: {x: 0.0000018099951, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.91, y: 0.91, z: 0.91}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,22 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!208 &6620518390211962183
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013383004070}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 3.2200003, y: 2.236, z: 3.466}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.356, y: 2.236, z: -0.48100004}
-  m_TimeToStationary: 0.5
 --- !u!114 &1300537972652383337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,3 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06c4237e11f7d840867853df5d685ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &6620518390211962183
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013383004070}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.2200003, y: 2.236, z: 3.466}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.356, y: 2.236, z: -0.48100004}
+  m_TimeToStationary: 0.5
