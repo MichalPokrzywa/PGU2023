@@ -75,4 +75,13 @@ public class GameManager : MonoBehaviour
         totalSurface /= counter;
         GameCanvas.instance.UpdateStats(totalCost, totalApartment, totalBiodegradable, totalTree, totalDevelopment, totalSurface, totalFloors);
     }
+    public float finalScore()
+    {
+        float result = 0;
+        result = totalApartment * totalBiodegradable * totalTree * totalDevelopment * totalSurface * totalFloors;
+
+        result = result - totalCost*7;
+
+        return result;
+    }
 }
