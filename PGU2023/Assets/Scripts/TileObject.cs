@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.AI.Navigation;
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -13,14 +14,12 @@ public class TileObject : MonoBehaviour
     public (int value, int cost, int interest, int functionality) currentValue;
     public NavMeshSurface surface;
     public GameObject personPrefab;
-    public bool premium;
+    private bool premium = false;
     public Symbol symbol;
 
     private void Start()
     {
         surface = GameObject.Find("NavMesh").GetComponent<NavMeshSurface>();
-        premium = false;
-
     }
     bool ShowBuilding()
     {
@@ -47,11 +46,43 @@ public class TileObject : MonoBehaviour
             }
             else
             {
+                if (premium)
+                {
+                    switch (GameManager.instance.characterType)
+                    {
+                        case Symbol.Heart:
+                            {
+                                card.apartments *= 2;
+                                card.averageFloors *= 2;
+                                break;
+                            }
+                        case Symbol.Diamond:
+                            {
+                                card.cost = (int) (card.cost * 0.5);
+                                card.intensityDev *= 2;
+                                break;
+                            }
+                        case Symbol.Club:
+                            {
+                                card.tree *= 2;
+                                card.bioSurface *= 2;
+                                card.bioSurface = card.bioSurface > 1 ? 1 : card.bioSurface;
+                                break;
+                            }
+                        case Symbol.Spade:
+                            {
+                                card.apartments *= 2;
+                                card.areaSurface *= 2;
+                                card.areaSurface = card.areaSurface > 1 ? 1 : card.areaSurface;
+                                break;
+                            }
+
+                    }
+                }
                 currentValue = card.GetValueTuple();
                 TileManager.instance.InformTiles(this);
             }
             AddPeople();
-
         }
     }
 
