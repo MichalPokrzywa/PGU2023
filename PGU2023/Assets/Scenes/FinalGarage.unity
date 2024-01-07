@@ -3772,7 +3772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsUi: {fileID: 336494864}
   endButton: {fileID: 672219600}
-  cardShowUI: {fileID: 0}
+  cardShowUI: {fileID: 614215816}
 --- !u!114 &1139007708
 MonoBehaviour:
   m_ObjectHideFlags: 0
