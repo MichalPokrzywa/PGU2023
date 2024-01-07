@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.AI.Navigation;
-using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -65,14 +64,14 @@ public class TileObject : MonoBehaviour
                         case Symbol.Club:
                             {
                                 card.tree *= 2;
-                                card.bioSurface *= 2;
+                                card.bioSurface *= 4;
                                 card.bioSurface = card.bioSurface > 1 ? 1 : card.bioSurface;
                                 break;
                             }
                         case Symbol.Spade:
                             {
                                 card.apartments *= 2;
-                                card.areaSurface *= 2;
+                                card.areaSurface *= 4;
                                 card.areaSurface = card.areaSurface > 1 ? 1 : card.areaSurface;
                                 break;
                             }

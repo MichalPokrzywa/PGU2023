@@ -65,14 +65,15 @@ public class GameManager : MonoBehaviour
                 totalBiodegradable += card.bioSurface;
                 totalTree += card.tree;
                 totalDevelopment += card.intensityDev;
-                totalSurface = card.areaSurface;
-                totalFloors = card.averageFloors;
+                totalSurface += card.areaSurface;
+                totalFloors += card.averageFloors;
             }
             
         }
 
         totalBiodegradable /= counter;
-        totalSurface /= counter;
+        totalSurface  /= counter;
+        totalFloors /= counter;
         GameCanvas.instance.UpdateStats(totalCost, totalApartment, totalBiodegradable, totalTree, totalDevelopment, totalSurface, totalFloors);
     }
 }
