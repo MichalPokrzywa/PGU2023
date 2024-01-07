@@ -124,5 +124,10 @@ public class CardObject : MonoBehaviour
         return handIndex;
     }
 
+    public Texture2D GetCardTexture()
+    {
+        return (Texture2D)cardMaterial.GetTexture("_MainTex2");
+    }
+
 
 }
